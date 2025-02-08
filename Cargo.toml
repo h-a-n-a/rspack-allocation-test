@@ -1,7 +1,7 @@
 [package]
 name = "mimalloc-test"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
 libmimalloc-sys = { version = "0.1.40", package = "libmimalloc-sys-rspack", features = [
@@ -19,3 +19,7 @@ rspack_hook = { git = "https://github.com/web-infra-dev/rspack.git" }
 
 serde_json = "*"
 tokio = { version = "1", features = ["full"] }
+
+[profile.release]
+debug = true
+strip = false

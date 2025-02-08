@@ -98,7 +98,8 @@ pub(crate) async fn resolve_loader(
 #[tokio::main]
 async fn rspack() {
     // let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
-    let dir = PathBuf::from("/Users/bytedance/Projects/mimalloc-test").join("10000");
+    // let dir = PathBuf::from("/Users/bytedance/Projects/mimalloc-test").join("10000");
+    let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
     let options = json!({
         "jsc": {
             "parser": {
