@@ -1,0 +1,21 @@
+[package]
+name = "mimalloc-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libmimalloc-sys = { version = "0.1.40", package = "libmimalloc-sys-rspack", features = [
+  "extended",
+] }
+mimalloc = { version = "0.1.44", package = "mimalloc-rspack" }
+
+rspack = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_core = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_regex = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_macros = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_error = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_loader_swc = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_hook = { git = "https://github.com/web-infra-dev/rspack.git" }
+
+serde_json = "*"
+tokio = { version = "1", features = ["full"] }
