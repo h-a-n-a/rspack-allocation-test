@@ -1,7 +1,8 @@
 use std::{
-    collections::HashSet,
+    borrow::Cow,
+    collections::{HashMap, HashSet},
     path::{Path, PathBuf},
-    sync::Arc,
+    sync::{Arc, LazyLock},
     thread::sleep,
     time::Duration,
 };
@@ -10,16 +11,17 @@ use libmimalloc_sys::mi_stats_print;
 use mimalloc::MiMalloc;
 use rspack::builder::{Builder, Devtool};
 use rspack_core::{
-    BUILTIN_LOADER_PREFIX, BoxLoader, Compiler, Context, EntryDescription, Experiments, Mode,
-    ModuleOptions, ModuleRule, ModuleRuleEffect, ModuleRuleUse, ModuleRuleUseLoader,
-    NormalModuleFactoryResolveLoader, OutputOptions, Plugin, Resolve, Resolver, RuleSetCondition,
+    BoxLoader, Compiler, Context, EntryDescription, Experiments, Mode, ModuleOptions, ModuleRule,
+    ModuleRuleEffect, ModuleRuleUse, ModuleRuleUseLoader, NormalModuleFactoryResolveLoader,
+    OutputOptions, Plugin, Resolve, Resolver, RuleSetCondition, BUILTIN_LOADER_PREFIX,
 };
 use rspack_error::Result;
 use rspack_hook::plugin;
+use rspack_loader_swc::SwcLoader;
 use rspack_macros::plugin_hook;
 use rspack_regex::RspackRegex;
 use serde_json::json;
-use tokio::fs;
+use tokio::{fs, sync::RwLock};
 
 // #[global_allocator]
 // static GLOBAL: MiMalloc = MiMalloc;
@@ -84,16 +86,35 @@ pub(crate) async fn resolve_loader(
     // FIXME: not belong to napi
     if loader_request.starts_with(BUILTIN_LOADER_PREFIX) {
         if loader_request.starts_with("builtin:swc-loader") {
-            return Ok(Some(Arc::new(
+            if let Some(loader) = SWC_LOADER_CACHE.read().await.get(&(
+                Cow::Borrowed(loader_request),
+                loader_options.clone().unwrap().into(),
+            )) {
+                return Ok(Some(loader.clone()));
+            }
+
+            let loader = Arc::new(
                 rspack_loader_swc::SwcLoader::new(loader_options.unwrap())
                     .unwrap()
                     .with_identifier(loader_request.to_string().into()),
-            )));
+            );
+
+            SWC_LOADER_CACHE.write().await.insert(
+                (
+                    Cow::Owned(loader_request.to_owned()),
+                    loader_options.clone().unwrap().into(),
+                ),
+                loader.clone(),
+            );
+            return Ok(Some(loader));
         }
     }
 
     return Ok(None);
 }
+
+type SwcLoaderCache<'a> = LazyLock<RwLock<HashMap<(Cow<'a, str>, Arc<str>), Arc<SwcLoader>>>>;
+static SWC_LOADER_CACHE: SwcLoaderCache = LazyLock::new(|| RwLock::new(HashMap::default()));
 
 #[tokio::main]
 async fn rspack() {
