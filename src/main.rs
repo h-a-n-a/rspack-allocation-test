@@ -1,13 +1,14 @@
 use std::{
     borrow::Cow,
     collections::{HashMap, HashSet},
+    mem,
     path::{Path, PathBuf},
     sync::{Arc, LazyLock},
     thread::sleep,
     time::Duration,
 };
 
-use libmimalloc_sys::mi_stats_print;
+use libmimalloc_sys::{mi_stats_print, mi_collect};
 use mimalloc::MiMalloc;
 use rspack::builder::{Builder, Devtool};
 use rspack_core::{
@@ -23,8 +24,8 @@ use rspack_regex::RspackRegex;
 use serde_json::json;
 use tokio::{fs, sync::RwLock};
 
-// #[global_allocator]
-// static GLOBAL: MiMalloc = MiMalloc;
+ //#[global_allocator]
+ // static GLOBAL: MiMalloc = MiMalloc;
 
 fn bulk() {
     loop {
@@ -119,8 +120,8 @@ static SWC_LOADER_CACHE: SwcLoaderCache = LazyLock::new(|| RwLock::new(HashMap::
 #[tokio::main]
 async fn rspack() {
     // let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
-    // let dir = PathBuf::from("/Users/bytedance/Projects/mimalloc-test").join("10000");
-    let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
+    let dir = PathBuf::from("/Users/bytedance/Projects/mimalloc-test").join("10000");
+    // let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
     let options = json!({
         "jsc": {
             "parser": {
@@ -158,6 +159,7 @@ async fn rspack() {
             },
             ..Default::default()
         }))
+        .cache(rspack_core::CacheOptions::Memory)
         .resolve(Resolve {
             extensions: Some(vec!["...".to_string(), ".jsx".to_string()]),
             ..Default::default()
@@ -175,7 +177,7 @@ async fn rspack() {
         eprintln!("{:#?}", e);
     });
 
-    let mut i = 10;
+    let mut i = 2;
 
     loop {
         let mut content = std::fs::read(dir.join("index.jsx")).unwrap();
@@ -196,7 +198,9 @@ async fn rspack() {
             mi_stats_print(0 as _);
         }
 
-        sleep(Duration::from_secs(2));
+   //  unsafe { mi_collect(true) };
+
+        sleep(Duration::from_secs(10));
 
         i -= 1;
 
@@ -205,7 +209,9 @@ async fn rspack() {
         }
     }
 
-    drop(compiler);
+//    drop(compiler);
+  //
+
 
     sleep(Duration::from_secs(2));
 
@@ -215,5 +221,12 @@ async fn rspack() {
 }
 
 fn main() {
+{
     rspack();
+
+  }
+    //    let a = vec![1; 1024 * 1024 * 1024];
+
+    // drop(a);
+    //   mem::forget(a);
 }

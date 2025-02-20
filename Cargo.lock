@@ -197,7 +197,7 @@ dependencies = [
  "addr2line",
  "cfg-if",
  "libc",
- "miniz_oxide 0.8.3",
+ "miniz_oxide 0.8.4",
  "object",
  "rustc-demangle",
  "windows-targets 0.52.6",
@@ -342,11 +342,11 @@ dependencies = [
 
 [[package]]
 name = "bytecheck"
-version = "0.8.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "50c8f430744b23b54ad15161fcbc22d82a29b73eacbe425fea23ec822600bc6f"
+checksum = "50690fb3370fb9fe3550372746084c46f2ac8c9685c583d2be10eefd89d3d1a3"
 dependencies = [
- "bytecheck_derive 0.8.0",
+ "bytecheck_derive 0.8.1",
  "ptr_meta 0.3.0",
  "rancor",
  "simdutf8",
@@ -365,9 +365,9 @@ dependencies = [
 
 [[package]]
 name = "bytecheck_derive"
-version = "0.8.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "523363cbe1df49b68215efdf500b103ac3b0fb4836aed6d15689a076eadb8fff"
+checksum = "efb7846e0cb180355c2dec69e721edafa36919850f1a9f52ffba4ebc0393cb71"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -429,10 +429,19 @@ dependencies = [
 ]
 
 [[package]]
-name = "cc"
-version = "1.2.12"
+name = "castaway"
+version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "755717a7de9ec452bf7f3f1a3099085deabd7f2962b861dae91ecd7a365903d2"
+checksum = "0abae9be0aaf9ea96a3b1b8b1b55c602ca751eba1b1500220cea4ecbafe7c0d5"
+dependencies = [
+ "rustversion",
+]
+
+[[package]]
+name = "cc"
+version = "1.2.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c7777341816418c02e033934a09f20dc0ccaf65a5201ef8a450ae0105a573fda"
 dependencies = [
  "shlex",
 ]
@@ -473,6 +482,19 @@ name = "clean-path"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aaa6b4b263a5d737e9bf6b7c09b72c41a5480aec4d7219af827f6564e950b6a5"
+
+[[package]]
+name = "compact_str"
+version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f86b9c4c00838774a6d902ef931eff7470720c51d90c2e32cfe15dc304737b3f"
+dependencies = [
+ "castaway",
+ "cfg-if",
+ "itoa",
+ "ryu",
+ "static_assertions",
+]
 
 [[package]]
 name = "concat-string"
@@ -627,13 +649,9 @@ dependencies = [
 
 [[package]]
 name = "ctor"
-version = "0.2.9"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32a2785755761f3ddc1492979ce1e48d2c00d09311c39e4466429188f3dd6501"
-dependencies = [
- "quote",
- "syn 2.0.98",
-]
+checksum = "bba74424191d99c617a172ef126d429f62fe54aba1002c4d36e49403ce4b00a2"
 
 [[package]]
 name = "cty"
@@ -706,9 +724,9 @@ dependencies = [
 
 [[package]]
 name = "data-encoding"
-version = "2.7.0"
+version = "2.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0e60eed09d8c01d3cee5b7d30acb059b76614c918fa0f992e0dd6eeb10daad6f"
+checksum = "575f75dfd25738df5b91b8e43e14d44bda14637a58fae779fd2b064f8bf3e010"
 
 [[package]]
 name = "data-url"
@@ -1161,9 +1179,9 @@ dependencies = [
 
 [[package]]
 name = "handlebars"
-version = "6.3.0"
+version = "6.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d6b224b95c1e668ac0270325ad563b2eef1469fbbb8959bc7c692c844b813d9"
+checksum = "d752747ddabc4c1a70dd28e72f2e3c218a816773e0d7faf67433f1acfa6cba7c"
 dependencies = [
  "derive_builder",
  "log",
@@ -1828,9 +1846,9 @@ dependencies = [
 
 [[package]]
 name = "miniz_oxide"
-version = "0.8.3"
+version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b8402cab7aefae129c6977bb0ff1b8fd9a04eb5b51efc50a70bea51cda0c7924"
+checksum = "b3b1c9bd4fe1f0f8b387f6eb9eb3b4a1aa26185e5750efb9140301703f62cd1b"
 dependencies = [
  "adler2",
 ]
@@ -1868,9 +1886,9 @@ dependencies = [
 
 [[package]]
 name = "napi"
-version = "3.0.0-alpha.27"
+version = "3.0.0-alpha.28"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "023afffe908293dd644255348d78502d748e28dab7a329aa72edce1c5ac8be81"
+checksum = "0dd957e2cc4bd62b730b10ff1f35775f8a81dac84a3bfac273b0ec4336f53ab8"
 dependencies = [
  "anyhow",
  "bitflags",
@@ -2558,7 +2576,7 @@ version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a35e8a6bf28cd121053a66aa2e6a2e3eaffad4a60012179f0e864aa5ffeff215"
 dependencies = [
- "bytecheck 0.8.0",
+ "bytecheck 0.8.1",
 ]
 
 [[package]]
@@ -2585,7 +2603,7 @@ version = "0.8.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "395027076c569819ea6035ee62e664f5e03d74e281744f55261dd1afd939212b"
 dependencies = [
- "bytecheck 0.8.0",
+ "bytecheck 0.8.1",
  "bytes",
  "hashbrown 0.14.5",
  "indexmap 2.7.1",
@@ -2633,7 +2651,7 @@ dependencies = [
 [[package]]
 name = "rspack"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "bitflags",
  "enum-tag",
@@ -2671,7 +2689,7 @@ dependencies = [
 [[package]]
 name = "rspack_ast"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anyhow",
  "swc_core",
@@ -2682,7 +2700,7 @@ dependencies = [
 [[package]]
 name = "rspack_base64"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "base64-simd 0.8.0",
  "regex",
@@ -2691,7 +2709,7 @@ dependencies = [
 [[package]]
 name = "rspack_cacheable"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "camino",
  "dashmap 6.1.0",
@@ -2715,7 +2733,7 @@ dependencies = [
 [[package]]
 name = "rspack_collections"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "dashmap 6.1.0",
  "hashlink",
@@ -2729,7 +2747,7 @@ dependencies = [
 [[package]]
 name = "rspack_core"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anymap3",
  "async-recursion",
@@ -2785,9 +2803,9 @@ dependencies = [
 
 [[package]]
 name = "rspack_dojang"
-version = "0.1.10"
+version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "88a1172695eaa000f610a46c6632d70ebbc7d812202ba64e83157e4a9e0b7269"
+checksum = "9803670afdceac77551ca44c99b9a63c78e77848bc1d5db11d5a9975a290486e"
 dependencies = [
  "html-escape",
  "serde_json",
@@ -2796,7 +2814,7 @@ dependencies = [
 [[package]]
 name = "rspack_error"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anyhow",
  "cow-utils",
@@ -2818,7 +2836,7 @@ dependencies = [
 [[package]]
 name = "rspack_fs"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "dunce",
@@ -2831,7 +2849,7 @@ dependencies = [
 [[package]]
 name = "rspack_futures"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-scoped",
 ]
@@ -2839,7 +2857,7 @@ dependencies = [
 [[package]]
 name = "rspack_hash"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "data-encoding",
  "md4",
@@ -2851,7 +2869,7 @@ dependencies = [
 [[package]]
 name = "rspack_hook"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "futures-concurrency",
@@ -2863,7 +2881,7 @@ dependencies = [
 [[package]]
 name = "rspack_ids"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "itertools 0.14.0",
  "rayon",
@@ -2880,7 +2898,7 @@ dependencies = [
 [[package]]
 name = "rspack_loader_runner"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anymap3",
  "async-trait",
@@ -2903,7 +2921,7 @@ dependencies = [
 [[package]]
 name = "rspack_loader_swc"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2916,6 +2934,7 @@ dependencies = [
  "rspack_cacheable",
  "rspack_core",
  "rspack_error",
+ "rspack_hook",
  "rspack_loader_runner",
  "rspack_plugin_javascript",
  "rspack_swc_plugin_import",
@@ -2927,6 +2946,7 @@ dependencies = [
  "swc",
  "swc_config",
  "swc_core",
+ "tokio",
  "tracing",
  "url",
 ]
@@ -2934,7 +2954,7 @@ dependencies = [
 [[package]]
 name = "rspack_macros"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "json",
  "proc-macro2",
@@ -2945,7 +2965,7 @@ dependencies = [
 [[package]]
 name = "rspack_paths"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "camino",
  "rspack_cacheable",
@@ -2954,7 +2974,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_asset"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "mime_guess",
@@ -2974,7 +2994,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_css"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "cow-utils",
@@ -3001,7 +3021,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_devtool"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "cow-utils",
@@ -3028,7 +3048,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_ensure_chunk_conditions"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "rspack_core",
  "rspack_error",
@@ -3040,7 +3060,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_entry"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "rspack_core",
@@ -3052,7 +3072,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_externals"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "regex",
  "rspack_core",
@@ -3066,7 +3086,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_javascript"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anymap3",
  "async-trait",
@@ -3108,7 +3128,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_json"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "cow-utils",
  "json",
@@ -3122,7 +3142,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_library"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "regex",
@@ -3143,7 +3163,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_merge_duplicate_chunks"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "rspack_collections",
  "rspack_core",
@@ -3156,7 +3176,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_no_emit_on_errors"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "rspack_core",
  "rspack_error",
@@ -3167,8 +3187,9 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_real_content_hash"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
+ "dashmap 6.1.0",
  "derive_more",
  "indexmap 2.7.1",
  "once_cell",
@@ -3178,6 +3199,7 @@ dependencies = [
  "rspack_error",
  "rspack_hash",
  "rspack_hook",
+ "rspack_util",
  "rustc-hash 2.1.1",
  "tracing",
 ]
@@ -3185,7 +3207,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_remove_empty_chunks"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "rspack_collections",
  "rspack_core",
@@ -3197,7 +3219,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_runtime"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "cow-utils",
@@ -3222,7 +3244,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_runtime_chunk"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "futures",
  "rspack_core",
@@ -3234,7 +3256,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_schemes"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -3259,7 +3281,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_swc_js_minimizer"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "cow-utils",
  "once_cell",
@@ -3282,7 +3304,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_wasm"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "cow-utils",
@@ -3304,7 +3326,7 @@ dependencies = [
 [[package]]
 name = "rspack_plugin_worker"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "rspack_core",
  "rspack_error",
@@ -3315,7 +3337,7 @@ dependencies = [
 [[package]]
 name = "rspack_regex"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "cow-utils",
  "napi",
@@ -3328,9 +3350,9 @@ dependencies = [
 
 [[package]]
 name = "rspack_resolver"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f0fac1113e5d3c710cac34ddac23a58d7615cd5f7098f7b553ddb3a20dfedc6"
+checksum = "fa7be13888a4d57ed3992c6c17438f284643b69cc67e3a36cbdd61e3f6a6fe38"
 dependencies = [
  "cfg-if",
  "dashmap 6.1.0",
@@ -3349,9 +3371,9 @@ dependencies = [
 
 [[package]]
 name = "rspack_sources"
-version = "0.4.4"
+version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "848838c969651b669c92a9eb7744856690039c2f5b5831033598aae97af9131f"
+checksum = "add676fe1705a3383fb97ae89553f1a22bb4f913121dd35372a23780cc8dab55"
 dependencies = [
  "dashmap 6.1.0",
  "dyn-clone",
@@ -3367,7 +3389,7 @@ dependencies = [
 [[package]]
 name = "rspack_storage"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "async-trait",
  "cow-utils",
@@ -3386,7 +3408,7 @@ dependencies = [
 [[package]]
 name = "rspack_swc_plugin_import"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "cow-utils",
  "handlebars",
@@ -3399,7 +3421,7 @@ dependencies = [
 [[package]]
 name = "rspack_util"
 version = "0.2.0"
-source = "git+https://github.com/web-infra-dev/rspack.git#97e38e60caa66b3bde1dc4d4f31ac0c0669a06ab"
+source = "git+https://github.com/web-infra-dev/rspack.git#cd8eae014d68c73f6d1a6a47ca3a6f0636e3eeeb"
 dependencies = [
  "bitflags",
  "concat-string",
@@ -3410,6 +3432,7 @@ dependencies = [
  "regex",
  "ropey",
  "rspack_cacheable",
+ "rspack_paths",
  "rspack_regex",
  "rustc-hash 2.1.1",
  "serde",
@@ -3769,9 +3792,9 @@ checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
 
 [[package]]
 name = "stacker"
-version = "0.1.17"
+version = "0.1.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "799c883d55abdb5e98af1a7b3f23b9b6de8ecada0ecac058672d7635eb48ca7b"
+checksum = "1d08feb8f695b465baed819b03c128dc23f57a694510ab1f06c77f763975685e"
 dependencies = [
  "cc",
  "cfg-if",
@@ -3939,9 +3962,9 @@ dependencies = [
 
 [[package]]
 name = "swc_common"
-version = "6.1.0"
+version = "6.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4247defb6017aa8799c43e03da35a5ef7ce737189001392083619711c6d4811e"
+checksum = "7327d132e85f8a50e0a9e2458a7b44726b2db2f7f9c8b8a556f07f359c42a461"
 dependencies = [
  "ast_node",
  "better_scoped_tls",
@@ -4065,11 +4088,12 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_codegen"
-version = "6.0.2"
+version = "6.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b342d4f7b09d2bc669c92e53748bc3db134ecb2473e4f16bc3eec6ec473ba49a"
+checksum = "fa6bdce26d910981128bc709a997292a5d1c98d54a9832154a1083d1adb6fdd7"
 dependencies = [
  "ascii",
+ "compact_str",
  "memchr",
  "num-bigint",
  "once_cell",
@@ -4391,9 +4415,9 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_parser"
-version = "8.0.1"
+version = "8.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a3e9d2f5091bb851423ca66c239802212e2c80451242ff29941bc21058376ef"
+checksum = "1a359eaebed82e5e13e1004d1e4003931b66d8b8edab8884f3d02ed827df7530"
 dependencies = [
  "either",
  "new_debug_unreachable",
@@ -5088,9 +5112,9 @@ dependencies = [
 
 [[package]]
 name = "toml_edit"
-version = "0.22.23"
+version = "0.22.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02a8b472d1a3d7c18e2d61a489aee3453fd9031c33e4f55bd533f4a7adca1bee"
+checksum = "17b4795ff5edd201c7cd6dca065ae59972ce77d1b80fa0a84d94950ece7d1474"
 dependencies = [
  "indexmap 2.7.1",
  "serde",
@@ -5624,9 +5648,9 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 
 [[package]]
 name = "winnow"
-version = "0.7.1"
+version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86e376c75f4f43f44db463cf729e0d3acbf954d13e22c51e26e4c264b4ab545f"
+checksum = "59690dea168f2198d1a3b0cac23b8063efcd11012f10ae4698f284808c8ef603"
 dependencies = [
  "memchr",
 ]
