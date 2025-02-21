@@ -1,4 +1,5 @@
 use std::{
+    alloc::System,
     borrow::Cow,
     collections::{HashMap, HashSet},
     mem,
@@ -8,7 +9,7 @@ use std::{
     time::Duration,
 };
 
-use libmimalloc_sys::{mi_stats_print, mi_collect};
+use libmimalloc_sys::{mi_collect, mi_stats_print};
 use mimalloc::MiMalloc;
 use rspack::builder::{Builder, Devtool};
 use rspack_core::{
@@ -22,10 +23,11 @@ use rspack_loader_swc::SwcLoader;
 use rspack_macros::plugin_hook;
 use rspack_regex::RspackRegex;
 use serde_json::json;
+use stats_alloc::{Region, StatsAlloc, INSTRUMENTED_SYSTEM};
 use tokio::{fs, sync::RwLock};
 
- //#[global_allocator]
- // static GLOBAL: MiMalloc = MiMalloc;
+#[global_allocator]
+static GLOBAL: StatsAlloc<MiMalloc> = StatsAlloc::new(MiMalloc);
 
 fn bulk() {
     loop {
@@ -120,7 +122,7 @@ static SWC_LOADER_CACHE: SwcLoaderCache = LazyLock::new(|| RwLock::new(HashMap::
 #[tokio::main]
 async fn rspack() {
     // let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
-    let dir = PathBuf::from("/Users/bytedance/Projects/mimalloc-test").join("10000");
+    let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
     // let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
     let options = json!({
         "jsc": {
@@ -177,7 +179,10 @@ async fn rspack() {
         eprintln!("{:#?}", e);
     });
 
-    let mut i = 2;
+    let mut region = Region::new(&GLOBAL);
+    let initial = Region::new(&GLOBAL);
+
+    let mut i = 10;
 
     loop {
         let mut content = std::fs::read(dir.join("index.jsx")).unwrap();
@@ -198,7 +203,9 @@ async fn rspack() {
             mi_stats_print(0 as _);
         }
 
-   //  unsafe { mi_collect(true) };
+        println!("{:#?}", region.change_and_reset());
+
+        //  unsafe { mi_collect(true) };
 
         sleep(Duration::from_secs(10));
 
@@ -209,11 +216,11 @@ async fn rspack() {
         }
     }
 
-//    drop(compiler);
-  //
+    drop(compiler);
+    //
+    println!("initial {:#?}", initial.change());
 
-
-    sleep(Duration::from_secs(2));
+    sleep(Duration::from_secs(10));
 
     unsafe {
         mi_stats_print(0 as _);
@@ -221,10 +228,9 @@ async fn rspack() {
 }
 
 fn main() {
-{
-    rspack();
-
-  }
+    {
+        rspack();
+    }
     //    let a = vec![1; 1024 * 1024 * 1024];
 
     // drop(a);

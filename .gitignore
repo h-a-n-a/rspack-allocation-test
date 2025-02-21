@@ -3,3 +3,6 @@ node_modules
 dist
 tmp
 .DS_Store
+*.zst
+perf.data
+dhat.out.*

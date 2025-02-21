@@ -9,13 +9,15 @@ libmimalloc-sys = { version = "0.1.40", package = "libmimalloc-sys-rspack", feat
 ] }
 mimalloc = { version = "0.1.44", package = "mimalloc-rspack" }
 
-rspack = { git = "https://github.com/web-infra-dev/rspack.git" }
-rspack_core = { git = "https://github.com/web-infra-dev/rspack.git" }
-rspack_regex = { git = "https://github.com/web-infra-dev/rspack.git" }
-rspack_macros = { git = "https://github.com/web-infra-dev/rspack.git" }
-rspack_error = { git = "https://github.com/web-infra-dev/rspack.git" }
-rspack_loader_swc = { git = "https://github.com/web-infra-dev/rspack.git" }
-rspack_hook = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack = { path = "/home/user/projects/rspack/crates/rspack" }
+rspack_core = { path = "/home/user/projects/rspack/crates/rspack_core/" }
+rspack_regex = { path = "/home/user/projects/rspack/crates/rspack_regex/" }
+rspack_macros = { path = "/home/user/projects/rspack/crates/rspack_macros" }
+rspack_error = { path = "/home/user/projects/rspack/crates/rspack_error" }
+rspack_loader_swc = { path = "/home/user/projects/rspack/crates/rspack_loader_swc/" }
+rspack_hook = { path = "/home/user/projects/rspack/crates/rspack_hook/" }
+
+stats_alloc = { version = "0.1.10", features = ["nightly"] }
 
 serde_json = "*"
 tokio = { version = "1", features = ["full"] }
