@@ -119,10 +119,9 @@ pub(crate) async fn resolve_loader(
 type SwcLoaderCache<'a> = LazyLock<RwLock<HashMap<(Cow<'a, str>, Arc<str>), Arc<SwcLoader>>>>;
 static SWC_LOADER_CACHE: SwcLoaderCache = LazyLock::new(|| RwLock::new(HashMap::default()));
 
-#[tokio::main]
-async fn rspack() {
-    // let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
-    let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
+fn rspack() {
+    let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
+    // let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
     // let dir = PathBuf::from("/home/user/projects/rspack-allocation-test").join("10000");
     let options = json!({
         "jsc": {
@@ -142,7 +141,7 @@ async fn rspack() {
         }
     })
     .to_string();
-    dbg!(&options);
+    // dbg!(&options);
     let mut compiler = Compiler::builder()
         .context(dir.to_string_lossy().to_string())
         .mode(Mode::Development)
@@ -161,7 +160,7 @@ async fn rspack() {
             },
             ..Default::default()
         }))
-        .cache(rspack_core::CacheOptions::Memory)
+        .cache(rspack_core::CacheOptions::Disabled)
         .resolve(Resolve {
             extensions: Some(vec!["...".to_string(), ".jsx".to_string()]),
             ..Default::default()
@@ -170,9 +169,19 @@ async fn rspack() {
         .plugin(Box::new(BuiltinLoaderRspackPlugin::new_inner()))
         .build();
 
-    dbg!(&compiler.options, &compiler.plugin_driver.plugins);
+    // dbg!(&compiler.options, &compiler.plugin_driver.plugins);
 
-    compiler.build().await.unwrap();
+    let rt = tokio::runtime::Builder::new_multi_thread()
+        .enable_all()
+        // .thread_keep_alive(Duration::from_millis(0))
+        .build()
+        .unwrap();
+
+    rt.block_on(async {
+        compiler.build().await.unwrap();
+    });
+
+    // rt.shutdown_background();
 
     eprintln!("Errors: ");
     compiler.compilation.get_errors().for_each(|e| {
@@ -185,35 +194,51 @@ async fn rspack() {
     let mut i = 10;
 
     loop {
-        let mut content = std::fs::read(dir.join("index.jsx")).unwrap();
-        content.extend(b"\nconsole.log('Hello, world!');");
-        let _ = std::fs::write(dir.join("index.jsx"), content).unwrap();
+        // let rt = tokio::runtime::Builder::new_multi_thread()
+        //     .enable_all()
+        //     // .thread_keep_alive(Duration::from_millis(0))
+        //     .build()
+        //     .unwrap();
 
-        compiler
-            .rebuild(
-                HashSet::from_iter(std::iter::once(
-                    dir.join("index.jsx").to_string_lossy().to_string(),
-                )),
-                HashSet::default(),
-            )
-            .await
-            .unwrap();
+        rt.block_on(async {
+            let mut content = std::fs::read(dir.join("index.jsx")).unwrap();
+            content.extend(b"\nconsole.log('Hello, world!');");
+            let _ = std::fs::write(dir.join("index.jsx"), content).unwrap();
 
-        unsafe {
-            mi_stats_print(0 as _);
-        }
+            compiler
+                .rebuild(
+                    HashSet::from_iter(std::iter::once(
+                        dir.join("index.jsx").to_string_lossy().to_string(),
+                    )),
+                    HashSet::default(),
+                )
+                .await
+                .unwrap();
 
-        println!("{:#?}", region.change_and_reset());
+            unsafe {
+                mi_stats_print(0 as _);
+            }
 
-        //  unsafe { mi_collect(true) };
+            println!("{:#?}", region.change_and_reset());
 
-        sleep(Duration::from_secs(10));
+            // unsafe { mi_collect(true) };
+
+            sleep(Duration::from_secs(10));
+        });
 
         i -= 1;
 
         if i == 0 {
             break;
         }
+        // rt.shutdown_background();
+        let metrics = rt.metrics();
+        dbg!(
+            metrics.num_alive_tasks(),
+            metrics.num_workers(),
+            metrics.num_blocking_threads(),
+            metrics.num_idle_blocking_threads(),
+        );
     }
 
     drop(compiler);
@@ -221,16 +246,17 @@ async fn rspack() {
     println!("initial {:#?}", initial.change());
 
     sleep(Duration::from_secs(10));
-
     unsafe {
         mi_stats_print(0 as _);
     }
 }
 
+fn mimalloc_reproduce() {}
+
 fn main() {
-    {
-        rspack();
-    }
+    // {
+    //     rspack();
+    // }
     //    let a = vec![1; 1024 * 1024 * 1024];
 
     // drop(a);
