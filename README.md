@@ -43,7 +43,15 @@ This executes the code in `src/main.rs`.
 
 In this demo, an rspack compiler was created to compile JavaScript in `10000` directly. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn a few green threads to drive asynchronous tasks. Then, Rpsack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
 
-Using macOS Activity Monitor, you would see RSS increases indefinitely as it rebuilds. This does not happen when using the macOS system allocator or on Linux Ubuntu-22.04.
+**Actual behavior**:
+
+Using macOS Activity Monitor, you would see RSS increases indefinitely as it rebuilds. At first, I thought it was a memory leak in Rspack. However, it turns out that this does not happen when using the macOS system allocator or on Linux Ubuntu-22.04.
+
+We do have some statically and globally initialized objects like `Ustr`, but this does not consume much of the memory.
+
+**Expected behavior**:
+
+RSS memory goes down as soon as rebuild starts. This is where we clean the previous compilation and cache.
 
 ## Environment
 
