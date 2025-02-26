@@ -7,24 +7,3 @@ ReactDom.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 
-
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');
-console.log('Hello, world!');

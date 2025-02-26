@@ -4,11 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-libmimalloc-sys = { version = "0.1.40", package = "libmimalloc-sys-rspack", features = [
-  "extended",
-] }
-mimalloc = { version = "0.1.44", package = "mimalloc-rspack" }
-
 # libmimalloc-sys = { path = "/Users/bytedance/Projects/mimalloc_rust/libmimalloc-sys/", package = "libmimalloc-sys-rspack", features = [
 #   "extended",
 # ] }
@@ -26,14 +21,13 @@ mimalloc = { version = "0.1.44", package = "mimalloc-rspack" }
 #
 
 
-rspack = { path = "../rspack/crates/rspack" }
+mimalloc = { path = "./mimalloc_rust", package = "mimalloc-rspack" }
+libmimalloc-sys = { version = "0.1.40", path = "./mimalloc_rust/libmimalloc-sys", package = "libmimalloc-sys-rspack", features = [
+  "extended",
+] }
+rspack = { path = "../rspack/crates/rspack", features = ["full"] }
 rspack_core = { path = "../rspack/crates/rspack_core/" }
 rspack_regex = { path = "../rspack/crates/rspack_regex/" }
-rspack_macros = { path = "../rspack/crates/rspack_macros" }
-rspack_error = { path = "../rspack/crates/rspack_error" }
-rspack_loader_swc = { path = "../rspack/crates/rspack_loader_swc/" }
-rspack_hook = { path = "../rspack/crates/rspack_hook/" }
-
 
 stats_alloc = { version = "0.1.10", features = ["nightly"] }
 
