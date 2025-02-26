@@ -9,10 +9,14 @@ use rspack_core::{
 };
 use rspack_regex::RspackRegex;
 use serde_json::json;
-use stats_alloc::StatsAlloc;
+// use stats_alloc::StatsAlloc;
+
+// #[global_allocator]
+// static GLOBAL: StatsAlloc<MiMalloc> = StatsAlloc::new(MiMalloc);
 
 #[global_allocator]
-static GLOBAL: StatsAlloc<MiMalloc> = StatsAlloc::new(MiMalloc);
+static GLOBAL: MiMalloc = MiMalloc;
+
 
 fn rspack() {
     let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
@@ -75,10 +79,7 @@ fn rspack() {
     compiler.compilation.get_errors().for_each(|e| {
         eprintln!("{:#?}", e);
     });
-    //
-    // let mut region = Region::new(&GLOBAL);
-    // let initial = Region::new(&GLOBAL);
-    //
+
     let mut i = 10;
 
     loop {
@@ -100,8 +101,6 @@ fn rspack() {
             unsafe {
                 mi_stats_print(0 as _);
             }
-
-            // println!("{:#?}", region.change_and_reset());
 
             sleep(Duration::from_secs(5));
         });

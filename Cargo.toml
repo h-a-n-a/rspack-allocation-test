@@ -25,9 +25,11 @@ mimalloc = { path = "./mimalloc_rust" }
 libmimalloc-sys = { path = "./mimalloc_rust/libmimalloc-sys/", features = [
   "extended",
 ] }
-rspack = { path = "../rspack/crates/rspack", features = ["full"] }
-rspack_core = { path = "../rspack/crates/rspack_core/" }
-rspack_regex = { path = "../rspack/crates/rspack_regex/" }
+rspack = { git = "https://github.com/web-infra-dev/rspack.git", features = [
+  "full",
+] }
+rspack_core = { git = "https://github.com/web-infra-dev/rspack.git" }
+rspack_regex = { git = "https://github.com/web-infra-dev/rspack.git" }
 
 stats_alloc = { version = "0.1.10", features = ["nightly"] }
 
