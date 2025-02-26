@@ -41,7 +41,7 @@ CARGO_MANIFEST_DIR=$(pwd) ./target/release/mimalloc-test
 
 This executes the code in `src/main.rs`.
 
-In this demo, an rspack compiler was created to compile JavaScript in `10000` directly. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn(if not already spawned) a few green threads to drive asynchronous tasks. Then, Rspack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
+In this demo, an rspack compiler was created to compile JavaScript in `10000` directory. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn(if not already spawned) a few green threads to drive asynchronous tasks. Then, Rspack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
 
 **Actual behavior**:
 
