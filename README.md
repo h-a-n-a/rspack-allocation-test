@@ -53,6 +53,20 @@ We do have some statically and globally initialized objects like `Ustr`, but thi
 
 RSS memory goes down as soon as rebuild starts. This is where we clean the previous compilation and cache.
 
+## Things I also tried
+
+1. I tried to enable a few environment variables recommended in `README`, MIMALLOC_PURGE_DELAY=0, and use `mi_collect(true)` on each rebuild. However, this does not help either.
+
+2. I've also tried to use mimalloc v3 (branch `dev-3`, I believe) and the problem still exists.
+
+3. I've also generated a `mimalloc.log`, which was built with mimalloc debug enabled, to see if this might be helpful.
+
+## Behavior on Ubuntu-22.04
+
+Memory does not goes up indefinitely. It's around 550 MB ~ 600 MB for v2.1.7 and <550MB for branch dev-3.
+
+I didn't got the chance to test it on Windows.
+
 ## Environment
 
 This is the environment that I was on:
