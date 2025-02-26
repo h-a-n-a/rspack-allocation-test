@@ -53,6 +53,10 @@ We do have some statically and globally initialized objects like `Ustr`, but thi
 
 RSS memory goes down as soon as rebuild starts. This is where we clean the previous compilation and cache.
 
+**Switch Mimalloc version:**
+
+Go to `mimalloc_rust/libmimalloc-sys/c_src/mimalloc` and checkout to a different ref. To recompile, you need to remove the `target` directory or use `cargo clean` and trigger `cargo build --release` again.
+
 ## Things I also tried
 
 1. I tried to enable a few environment variables recommended in `README`, MIMALLOC_PURGE_DELAY=0, and use `mi_collect(true)` on each rebuild. However, this does not help either.
