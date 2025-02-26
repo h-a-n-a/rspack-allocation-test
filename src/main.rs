@@ -110,7 +110,8 @@ fn rspack() {
         if i == 0 {
             break;
         }
-        // rt.shutdown_background();
+
+        // uncomment to show metrics of remaining tasks and threads
         // let metrics = rt.metrics();
         // dbg!(
         //     metrics.num_alive_tasks(),

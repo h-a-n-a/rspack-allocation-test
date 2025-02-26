@@ -41,7 +41,7 @@ CARGO_MANIFEST_DIR=$(pwd) ./target/release/mimalloc-test
 
 This executes the code in `src/main.rs`.
 
-In this demo, an rspack compiler was created to compile JavaScript in `10000` directly. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn a few green threads to drive asynchronous tasks. Then, Rspack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
+In this demo, an rspack compiler was created to compile JavaScript in `10000` directly. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn(if not already spawned) a few green threads to drive asynchronous tasks. Then, Rspack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
 
 **Actual behavior**:
 
@@ -57,9 +57,11 @@ RSS memory goes down as soon as rebuild starts. This is where we clean the previ
 
 1. I tried to enable a few environment variables recommended in `README`, MIMALLOC_PURGE_DELAY=0, and use `mi_collect(true)` on each rebuild. However, this does not help either.
 
-2. I've also tried to use mimalloc v3 (branch `dev-3`, I believe) and the problem still exists.
+2. I also tried to use mimalloc v3 (branch `dev-3`, I believe) and the problem still exists.
 
-3. I've also generated a `mimalloc.log`, which was built with mimalloc debug enabled, to see if this might be helpful.
+3. I also generated a `mimalloc.log`, which was built with mimalloc debug enabled, to see if this might be helpful.
+
+4. Tokio-wise, I tried to use `RUSTFLAGS="--cfg tokio_unstable" cargo run --release` and uncomment `dbg!` macro down below the `src/main.rs` file to see the remaining tasks and threads, and the results indicated that they had been freed.
 
 ## Behavior on Ubuntu-22.04
 
