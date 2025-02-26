@@ -1,0 +1,1722 @@
+Errors: 
+Rebuild count: 20
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   131.4 KiB     2.4 MiB     4.3 MiB    -1.9 MiB     8   B     320.7 K    ok
+normal   4:   178.9 KiB    22.7 MiB    32.3 MiB    -9.5 MiB    32   B     747.0 K    ok
+normal   6:   380.2 KiB    10.2 MiB    25.7 MiB   -15.5 MiB    48   B     224.0 K    ok
+normal   8:     1.2 MiB     8.7 MiB    13.0 MiB    -4.2 MiB    64   B     143.4 K    ok
+normal   9:     2.4 MiB    19.7 MiB    28.9 MiB    -9.1 MiB    80   B     258.6 K    ok
+normal  10:   948.1 KiB     9.7 MiB    15.3 MiB    -5.5 MiB    96   B     106.5 K    ok
+normal  11:     3.6 KiB   136.2 KiB    17.1 MiB   -16.9 MiB   112   B       1.2 K    ok
+normal  12:   512   B       1.2 MiB    17.3 MiB   -16.1 MiB   128   B      10.0 K    ok
+normal  13:     3.4 MiB    18.1 MiB    28.3 MiB   -10.1 MiB   160   B     119.1 K    ok
+normal  14:    64.9 KiB    13.2 MiB    24.3 MiB   -11.1 MiB   192   B      72.2 K    ok
+normal  15:    23.0 KiB     4.5 MiB     6.6 MiB    -2.1 MiB   224   B      21.3 K    ok
+normal  16:    57.9 KiB     5.2 MiB     7.6 MiB    -2.3 MiB   256   B      21.5 K    ok
+normal  17:     1.9 MiB    20.5 MiB    47.9 MiB   -27.4 MiB   320   B      67.4 K    ok
+normal  18:     3.9 MiB    23.7 MiB    37.3 MiB   -13.6 MiB   384   B      64.8 K    ok
+normal  19:    33.7 MiB    35.4 MiB     1.6 MiB    33.7 MiB   448   B      83.0 K    not all freed
+normal  20:    18.0 KiB    10.2 MiB    39.5 MiB   -29.3 MiB   512   B      21.0 K    ok
+normal  21:     6.9 KiB    12.6 MiB    63.9 MiB   -51.2 MiB   640   B      20.7 K    ok
+normal  22:   920.8 KiB     1.0 MiB   269.5 KiB   835.7 KiB   768   B       1.4 K    not all freed
+normal  23:     5.2 KiB     1.9 MiB     2.4 MiB  -504.2 KiB   896   B       2.2 K    ok
+normal  24:     4.0 KiB  1025.0 KiB     1.1 MiB  -109.4 KiB     1.0 KiB     1.0 K    ok
+normal  25:     7.5 KiB   179.4 KiB    99.2 MiB   -99.0 MiB     1.2 KiB   143        ok
+normal  26:   176.1 KiB   204.8 KiB    52.7 KiB   152.0 KiB     1.5 KiB   136        not all freed
+normal  27:    31.6 KiB   465.5 KiB   448.0 KiB    17.5 KiB     1.7 KiB   265        not all freed
+normal  28:     6.0 KiB   250.9 KiB   246.9 KiB     4.0 KiB     2.0 KiB   125        not all freed
+normal  29:    52.7 KiB   268.5 KiB     2.0 MiB    -1.7 MiB     2.5 KiB   107        ok
+normal  30:     9.0 KiB    48.1 KiB     2.6 MiB    -2.5 MiB     3.0 KiB    16        ok
+normal  31:    10.5 KiB    77.3 KiB    77.3 KiB     0           3.5 KiB    22        ok
+normal  32:    28.1 KiB    76.2 KiB    52.2 KiB    24.0 KiB     4.0 KiB    19        not all freed
+normal  33:    25.0 KiB   426.6 KiB    11.8 MiB   -11.4 MiB     5.0 KiB    85        ok
+normal  34:     6.0 KiB    78.3 KiB   746.9 KiB  -668.6 KiB     6.0 KiB    13        ok
+normal  35:   112.4 KiB   245.9 KiB   161.6 KiB    84.3 KiB     7.0 KiB    35        not all freed
+normal  36:     8.0 KiB    72.2 KiB    72.2 KiB     0           8.0 KiB     9        ok
+normal  37:   341.3 KiB     1.3 MiB   589.9 MiB  -588.5 MiB    10.0 KiB   142        ok
+normal  38:    36.1 KiB   192.7 KiB   951.7 KiB  -758.9 KiB    12.0 KiB    16        ok
+normal  39:    42.1 KiB   281.0 KiB   281.0 KiB     0          14.0 KiB    20        ok
+normal  40:    16.0 KiB   208.8 KiB   257.0 KiB   -48.1 KiB    16.0 KiB    13        ok
+normal  41:    60.2 KiB     1.5 MiB     2.4 MiB  -923.6 KiB    20.0 KiB    77        ok
+normal  42:    48.1 KiB   289.1 KiB   313.2 KiB   -24.0 KiB    24.0 KiB    12        ok
+normal  43:    84.3 KiB   534.0 KiB   534.0 KiB     0          28.1 KiB    19        ok
+normal  44:    64.2 KiB   289.1 KiB   289.1 KiB     0          32.1 KiB     9        ok
+normal  45:   160.6 KiB     3.0 MiB     3.7 MiB  -762.9 KiB    40.1 KiB    77        ok
+normal  46:    48.1 KiB   530.0 KiB   530.0 KiB     0          48.1 KiB    11        ok
+normal  47:   168.6 KiB     1.0 MiB     1.0 MiB     0          56.2 KiB    19        ok
+normal  48:    64.2 KiB   514.0 KiB   578.2 KiB   -64.2 KiB    64.2 KiB     8        ok
+normal  49:   240.9 KiB     6.9 MiB     6.9 MiB     0          80.3 KiB    89        ok
+normal  50:   385.5 KiB     1.2 MiB     1.0 MiB   192.7 KiB    96.3 KiB    13        not all freed
+normal  51:   337.3 KiB     2.0 MiB     2.0 MiB     0         112.4 KiB    19        ok
+normal  52:   128.5 KiB     1.0 MiB     1.0 MiB     0         128.5 KiB     8        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     3.1 Mi    231.2 Mi      1.0 Gi   -885.9 Mi    104   B       2.3 M    ok
+     large:    97.5 Mi    304.1 Mi    240.9 Mi     63.1 Mi    933.4 KiB   335        not all freed
+      huge:     0           0           0           0                                ok
+     total:   100.7 MiB   535.4 MiB     1.3 GiB  -822.7 MiB                          ok
+malloc req:    12.0 MiB   491.4 MiB     1.1 GiB  -678.2 MiB                          ok
+
+  reserved:     6.0 GiB     6.0 GiB     0           6.0 GiB                          
+ committed:     5.9 GiB     6.7 GiB     1.1 GiB     5.6 GiB                          
+     reset:    16.2 MiB
+    purged:   173.3 MiB
+   touched:   113.6 MiB   421.5 MiB   316.3 MiB   105.1 MiB                          not all freed
+  segments:     6           6           2           4                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   671           1.9 Ki      1.2 Ki    661                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    23.8 Ki 
+ -noretire:   503.7 Ki 
+    arenas:     6      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   187      
+   commits:     7.4 Ki 
+    resets:     1      
+    purges:   179      
+   threads:   181         183           2         181                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:     1.918 s
+   process: user: 9.749 s, system: 2.564 s, faults: 0, rss: 735.7 MiB, commit: 5.9 GiB
+Rebuild count: 19
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   210.0 KiB     3.2 MiB     6.5 MiB    -3.3 MiB     8   B     421.0 K    ok
+normal   4:   178.9 KiB    31.2 MiB    47.8 MiB   -16.6 MiB    32   B       1.0 M    ok
+normal   6:   380.2 KiB    15.8 MiB    47.4 MiB   -31.6 MiB    48   B     345.2 K    ok
+normal   8:     1.2 MiB    13.7 MiB    22.2 MiB    -8.5 MiB    64   B     224.6 K    ok
+normal   9:     2.4 MiB    28.5 MiB    47.7 MiB   -19.2 MiB    80   B     373.7 K    ok
+normal  10:     1.8 MiB    12.9 MiB    25.0 MiB   -12.0 MiB    96   B     141.5 K    ok
+normal  11:     3.7 KiB   251.7 KiB    27.8 MiB   -27.5 MiB   112   B       2.2 K    ok
+normal  12:   640   B       1.2 MiB    26.1 MiB   -24.9 MiB   128   B      10.0 K    ok
+normal  13:     3.4 MiB    27.6 MiB    51.4 MiB   -23.7 MiB   160   B     181.1 K    ok
+normal  14:    64.9 KiB    18.9 MiB    39.2 MiB   -20.3 MiB   192   B     103.3 K    ok
+normal  15:    23.0 KiB     6.9 MiB    11.1 MiB    -4.2 MiB   224   B      32.3 K    ok
+normal  16:    57.9 KiB     7.7 MiB    12.5 MiB    -4.8 MiB   256   B      31.7 K    ok
+normal  17:     1.9 MiB    31.1 MiB    79.9 MiB   -48.8 MiB   320   B     102.1 K    ok
+normal  18:     3.9 MiB    35.4 MiB    63.3 MiB   -27.9 MiB   384   B      96.7 K    ok
+normal  19:    50.5 MiB    53.1 MiB     2.5 MiB    50.5 MiB   448   B     124.2 K    not all freed
+normal  20:    18.5 KiB    15.1 MiB    59.1 MiB   -43.9 MiB   512   B      31.1 K    ok
+normal  21:     7.5 KiB    19.0 MiB   101.7 MiB   -82.7 MiB   640   B      31.1 K    ok
+normal  22:  1002.9 KiB     1.2 MiB   443.4 KiB   832.7 KiB   768   B       1.6 K    not all freed
+normal  23:     8.7 KiB     2.8 MiB     3.5 MiB  -638.6 KiB   896   B       3.3 K    ok
+normal  24:     6.0 KiB     1.0 MiB     1.2 MiB  -220.8 KiB     1.0 KiB     1.0 K    ok
+normal  25:     8.7 KiB   227.1 KiB   160.9 MiB  -160.7 MiB     1.2 KiB   181        ok
+normal  26:   176.1 KiB   213.8 KiB    84.3 KiB   129.5 KiB     1.5 KiB   142        not all freed
+normal  27:    43.9 KiB   686.9 KiB   671.1 KiB    15.8 KiB     1.7 KiB   391        not all freed
+normal  28:     8.0 KiB   263.0 KiB   259.0 KiB     4.0 KiB     2.0 KiB   131        not all freed
+normal  29:    55.2 KiB   358.9 KiB     3.0 MiB    -2.7 MiB     2.5 KiB   143        ok
+normal  30:     9.0 KiB    66.2 KiB     5.2 MiB    -5.2 MiB     3.0 KiB    22        ok
+normal  31:    21.0 KiB   108.9 KiB   108.9 KiB     0           3.5 KiB    31        ok
+normal  32:    36.1 KiB    96.3 KiB    68.2 KiB    28.1 KiB     4.0 KiB    24        not all freed
+normal  33:    30.1 KiB   602.3 KiB    22.3 MiB   -21.8 MiB     5.0 KiB   120        ok
+normal  34:     6.0 KiB   108.4 KiB     1.4 MiB    -1.3 MiB     6.0 KiB    18        ok
+normal  35:   133.5 KiB   316.2 KiB   231.9 KiB    84.3 KiB     7.0 KiB    45        not all freed
+normal  36:    16.0 KiB   104.4 KiB   104.4 KiB     0           8.0 KiB    13        ok
+normal  37:   421.6 KiB     1.9 MiB   983.3 MiB  -981.4 MiB    10.0 KiB   196        ok
+normal  38:    48.1 KiB   277.0 KiB     1.7 MiB    -1.4 MiB    12.0 KiB    23        ok
+normal  39:    84.3 KiB   407.5 KiB   407.5 KiB     0          14.0 KiB    29        ok
+normal  40:    16.0 KiB   273.0 KiB   369.4 KiB   -96.3 KiB    16.0 KiB    17        ok
+normal  41:   100.3 KiB     2.1 MiB     3.4 MiB    -1.2 MiB    20.0 KiB   110        ok
+normal  42:    72.2 KiB   409.6 KiB   457.7 KiB   -48.1 KiB    24.0 KiB    17        ok
+normal  43:   168.6 KiB   787.0 KiB   787.0 KiB     0          28.1 KiB    28        ok
+normal  44:    96.3 KiB   417.6 KiB   449.7 KiB   -32.1 KiB    32.1 KiB    13        ok
+normal  45:   240.9 KiB     4.2 MiB     5.5 MiB    -1.2 MiB    40.1 KiB   110        ok
+normal  46:    96.3 KiB   771.0 KiB   771.0 KiB     0          48.1 KiB    16        ok
+normal  47:   337.3 KiB     1.5 MiB     1.5 MiB     0          56.2 KiB    28        ok
+normal  48:   128.5 KiB   771.0 KiB   899.5 KiB  -128.5 KiB    64.2 KiB    12        ok
+normal  49:   401.5 KiB    10.0 MiB    10.0 MiB     0          80.3 KiB   128        ok
+normal  50:   578.2 KiB     1.7 MiB     1.5 MiB   192.7 KiB    96.3 KiB    19        not all freed
+normal  51:   674.6 KiB     3.0 MiB     3.0 MiB     0         112.4 KiB    28        ok
+normal  52:   257.0 KiB     1.5 MiB     1.5 MiB     0         128.5 KiB    12        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     4.1 Mi    338.6 Mi      1.7 Gi     -1.4 Gi    108   B       3.2 M    ok
+     large:   129.9 Mi    453.8 Mi    395.1 Mi     58.6 Mi    950.1 KiB   491        not all freed
+      huge:     0           0           0           0                                ok
+     total:   134.0 MiB   792.5 MiB     2.1 GiB    -1.4 GiB                          ok
+malloc req:    16.0 MiB   728.1 MiB     1.8 GiB    -1.1 GiB                          ok
+
+  reserved:     6.0 GiB     6.0 GiB     0           6.0 GiB                          
+ committed:     5.9 GiB     7.3 GiB     1.7 GiB     5.5 GiB                          
+     reset:    16.2 MiB
+    purged:   357.3 MiB
+   touched:   122.4 MiB   620.8 MiB   515.4 MiB   105.4 MiB                          not all freed
+  segments:     8           9           4           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   694           2.7 Ki      2.1 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    33.8 Ki 
+ -noretire:   659.6 Ki 
+    arenas:     6      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   188      
+   commits:     9.7 Ki 
+    resets:     1      
+    purges:   242      
+   threads:   182         184           3         181                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:     7.827 s
+   process: user: 14.675 s, system: 3.673 s, faults: 0, rss: 735.7 MiB, commit: 5.9 GiB
+Rebuild count: 18
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   288.5 KiB     3.9 MiB     8.7 MiB    -4.8 MiB     8   B     521.4 K    ok
+normal   4:   178.9 KiB    39.7 MiB    63.3 MiB   -23.6 MiB    32   B       1.3 M    ok
+normal   6:   380.2 KiB    21.3 MiB    69.2 MiB   -47.8 MiB    48   B     466.5 K    ok
+normal   8:     1.2 MiB    18.6 MiB    31.5 MiB   -12.8 MiB    64   B     305.8 K    ok
+normal   9:     2.4 MiB    37.3 MiB    66.5 MiB   -29.2 MiB    80   B     488.9 K    ok
+normal  10:     2.7 MiB    16.1 MiB    34.7 MiB   -18.5 MiB    96   B     176.5 K    ok
+normal  11:     3.8 KiB   367.2 KiB    38.5 MiB   -38.1 MiB   112   B       3.3 K    ok
+normal  12:   768   B       1.2 MiB    34.9 MiB   -33.7 MiB   128   B      10.1 K    ok
+normal  13:     3.4 MiB    37.0 MiB    74.5 MiB   -37.4 MiB   160   B     243.0 K    ok
+normal  14:    64.9 KiB    24.6 MiB    54.1 MiB   -29.4 MiB   192   B     134.5 K    ok
+normal  15:    23.0 KiB     9.2 MiB    15.6 MiB    -6.4 MiB   224   B      43.4 K    ok
+normal  16:    57.9 KiB    10.2 MiB    17.5 MiB    -7.2 MiB   256   B      42.0 K    ok
+normal  17:     1.9 MiB    41.7 MiB   111.9 MiB   -70.2 MiB   320   B     136.7 K    ok
+normal  18:     3.9 MiB    47.1 MiB    89.3 MiB   -42.1 MiB   384   B     128.6 K    ok
+normal  19:    67.3 MiB    70.7 MiB     3.4 MiB    67.3 MiB   448   B     165.5 K    not all freed
+normal  20:    19.0 KiB    20.0 MiB    78.6 MiB   -58.6 MiB   512   B      41.1 K    ok
+normal  21:     8.1 KiB    25.3 MiB   139.7 MiB  -114.3 MiB   640   B      41.5 K    ok
+normal  22:     1.0 MiB     1.4 MiB   616.6 KiB   829.7 KiB   768   B       1.9 K    not all freed
+normal  23:    13.1 KiB     3.8 MiB     4.7 MiB  -884.5 KiB   896   B       4.5 K    ok
+normal  24:     8.0 KiB     1.0 MiB     1.3 MiB  -332.2 KiB     1.0 KiB     1.0 K    ok
+normal  25:    10.0 KiB   274.8 KiB   222.7 MiB  -222.4 MiB     1.2 KiB   219        ok
+normal  26:   176.1 KiB   221.3 KiB   114.4 KiB   106.9 KiB     1.5 KiB   147        not all freed
+normal  27:    57.9 KiB   910.0 KiB   896.0 KiB    14.0 KiB     1.7 KiB   518        not all freed
+normal  28:    10.0 KiB   275.0 KiB   271.0 KiB     4.0 KiB     2.0 KiB   137        not all freed
+normal  29:    57.7 KiB   449.2 KiB     4.1 MiB    -3.7 MiB     2.5 KiB   179        ok
+normal  30:     9.0 KiB    81.3 KiB     7.8 MiB    -7.8 MiB     3.0 KiB    27        ok
+normal  31:    31.6 KiB   144.0 KiB   144.0 KiB     0           3.5 KiB    41        ok
+normal  32:    44.1 KiB   116.4 KiB    84.3 KiB    32.1 KiB     4.0 KiB    29        not all freed
+normal  33:    35.1 KiB   778.0 KiB    32.8 MiB   -32.0 MiB     5.0 KiB   155        ok
+normal  34:     6.0 KiB   132.5 KiB     2.0 MiB    -1.9 MiB     6.0 KiB    22        ok
+normal  35:   161.6 KiB   393.5 KiB   309.2 KiB    84.3 KiB     7.0 KiB    56        not all freed
+normal  36:    24.0 KiB   136.5 KiB   136.5 KiB     0           8.0 KiB    17        ok
+normal  37:   501.9 KiB     2.4 MiB     1.3 GiB    -1.3 GiB    10.0 KiB   250        ok
+normal  38:    60.2 KiB   349.3 KiB     2.5 MiB    -2.2 MiB    12.0 KiB    29        ok
+normal  39:   126.4 KiB   548.1 KiB   548.1 KiB     0          14.0 KiB    39        ok
+normal  40:    16.0 KiB   337.3 KiB   481.8 KiB  -144.5 KiB    16.0 KiB    21        ok
+normal  41:   140.5 KiB     2.7 MiB     4.5 MiB    -1.7 MiB    20.0 KiB   143        ok
+normal  42:    72.2 KiB   505.9 KiB   578.2 KiB   -72.2 KiB    24.0 KiB    21        ok
+normal  43:   224.8 KiB     1.0 MiB     1.0 MiB     0          28.1 KiB    38        ok
+normal  44:   128.5 KiB   546.1 KiB   610.3 KiB   -64.2 KiB    32.1 KiB    17        ok
+normal  45:   321.2 KiB     5.5 MiB     7.1 MiB    -1.6 MiB    40.1 KiB   143        ok
+normal  46:   144.5 KiB   963.7 KiB   963.7 KiB     0          48.1 KiB    20        ok
+normal  47:   505.9 KiB     2.0 MiB     2.0 MiB     0          56.2 KiB    38        ok
+normal  48:   192.7 KiB     1.0 MiB     1.1 MiB  -192.7 KiB    64.2 KiB    16        ok
+normal  49:   562.1 KiB    13.0 MiB    13.0 MiB     0          80.3 KiB   167        ok
+normal  50:   771.0 KiB     2.2 MiB     2.0 MiB   192.7 KiB    96.3 KiB    24        not all freed
+normal  51:  1011.9 KiB     4.1 MiB     4.1 MiB     0         112.4 KiB    38        ok
+normal  52:   385.5 KiB     2.0 MiB     2.0 MiB     0         128.5 KiB    16        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     5.0 Mi    446.2 Mi      2.5 Gi     -2.0 Gi    109   B       4.2 M    ok
+     large:   162.2 Mi    603.4 Mi    549.3 Mi     54.1 Mi    958.8 KiB   647        not all freed
+      huge:     0           0           0           0                                ok
+     total:   167.2 MiB     1.0 GiB     3.0 GiB    -2.0 GiB                          ok
+malloc req:    20.0 MiB   964.8 MiB     2.6 GiB    -1.6 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB     8.7 GiB     2.1 GiB     6.5 GiB                          
+     reset:    16.2 MiB
+    purged:   541.4 MiB
+   touched:   130.7 MiB   822.5 MiB   717.3 MiB   105.2 MiB                          not all freed
+  segments:     9          12           7           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   715           3.6 Ki      2.9 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    44.4 Ki 
+ -noretire:   818.8 Ki 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   198      
+   commits:    13.3 Ki 
+    resets:     1      
+    purges:   315      
+   threads:   191         195           4         191                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    13.755 s
+   process: user: 19.444 s, system: 4.891 s, faults: 0, rss: 749.3 MiB, commit: 6.5 GiB
+Rebuild count: 17
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   367.0 KiB     4.7 MiB    11.0 MiB    -6.2 MiB     8   B     621.7 K    ok
+normal   4:   178.9 KiB    48.2 MiB    78.9 MiB   -30.6 MiB    32   B       1.5 M    ok
+normal   6:   380.2 KiB    26.9 MiB    90.9 MiB   -64.0 MiB    48   B     587.8 K    ok
+normal   8:     1.2 MiB    23.6 MiB    40.7 MiB   -17.1 MiB    64   B     386.9 K    ok
+normal   9:     2.4 MiB    46.0 MiB    85.3 MiB   -39.2 MiB    80   B     604.0 K    ok
+normal  10:     3.6 MiB    19.3 MiB    44.4 MiB   -25.1 MiB    96   B     211.6 K    ok
+normal  11:     3.9 KiB   482.8 KiB    49.2 MiB   -48.7 MiB   112   B       4.3 K    ok
+normal  12:   896   B       1.2 MiB    43.7 MiB   -42.5 MiB   128   B      10.1 K    ok
+normal  13:     3.4 MiB    46.5 MiB    97.6 MiB   -51.0 MiB   160   B     305.0 K    ok
+normal  14:    64.9 KiB    30.3 MiB    68.9 MiB   -38.6 MiB   192   B     165.6 K    ok
+normal  15:    23.0 KiB    11.6 MiB    20.2 MiB    -8.5 MiB   224   B      54.5 K    ok
+normal  16:    57.9 KiB    12.7 MiB    22.4 MiB    -9.7 MiB   256   B      52.2 K    ok
+normal  17:     1.9 MiB    52.2 MiB   143.9 MiB   -91.7 MiB   320   B     171.3 K    ok
+normal  18:     3.9 MiB    58.8 MiB   115.2 MiB   -56.4 MiB   384   B     160.6 K    ok
+normal  19:    84.1 MiB    88.4 MiB     4.2 MiB    84.1 MiB   448   B     206.9 K    not all freed
+normal  20:    19.5 KiB    24.9 MiB    98.2 MiB   -73.2 MiB   512   B      51.1 K    ok
+normal  21:     8.7 KiB    31.7 MiB   177.4 MiB  -145.7 MiB   640   B      51.9 K    ok
+normal  22:     1.1 MiB     1.5 MiB   790.5 KiB   826.7 KiB   768   B       2.1 K    not all freed
+normal  23:    16.6 KiB     4.8 MiB     5.8 MiB    -1.0 MiB   896   B       5.6 K    ok
+normal  24:    10.0 KiB     1.0 MiB     1.4 MiB  -443.7 KiB     1.0 KiB     1.0 K    ok
+normal  25:    11.2 KiB   322.5 KiB   284.5 MiB  -284.2 MiB     1.2 KiB   257        ok
+normal  26:   176.1 KiB   231.9 KiB   146.0 KiB    85.8 KiB     1.5 KiB   154        not all freed
+normal  27:    70.2 KiB     1.1 MiB     1.0 MiB    12.2 KiB     1.7 KiB   644        not all freed
+normal  28:    12.0 KiB   287.1 KiB   283.1 KiB     4.0 KiB     2.0 KiB   143        not all freed
+normal  29:    60.2 KiB   539.6 KiB     5.1 MiB    -4.6 MiB     2.5 KiB   215        ok
+normal  30:     9.0 KiB    99.3 KiB    10.5 MiB   -10.4 MiB     3.0 KiB    33        ok
+normal  31:    42.1 KiB   175.6 KiB   175.6 KiB     0           3.5 KiB    50        ok
+normal  32:    52.2 KiB   136.5 KiB   100.3 KiB    36.1 KiB     4.0 KiB    34        not all freed
+normal  33:    40.1 KiB   953.7 KiB    43.6 MiB   -42.7 MiB     5.0 KiB   190        ok
+normal  34:     6.0 KiB   162.6 KiB     2.7 MiB    -2.6 MiB     6.0 KiB    27        ok
+normal  35:   182.7 KiB   463.8 KiB   379.4 KiB    84.3 KiB     7.0 KiB    66        not all freed
+normal  36:    32.1 KiB   168.6 KiB   168.6 KiB     0           8.0 KiB    21        ok
+normal  37:   582.2 KiB     2.9 MiB     1.7 GiB    -1.7 GiB    10.0 KiB   304        ok
+normal  38:    84.3 KiB   433.6 KiB     3.4 MiB    -2.9 MiB    12.0 KiB    36        ok
+normal  39:   154.6 KiB   674.6 KiB   674.6 KiB     0          14.0 KiB    48        ok
+normal  40:    16.0 KiB   401.5 KiB   594.3 KiB  -192.7 KiB    16.0 KiB    25        ok
+normal  41:   180.7 KiB     3.4 MiB     5.6 MiB    -2.1 MiB    20.0 KiB   176        ok
+normal  42:    96.3 KiB   626.4 KiB   722.8 KiB   -96.3 KiB    24.0 KiB    26        ok
+normal  43:   309.2 KiB     1.2 MiB     1.2 MiB     0          28.1 KiB    47        ok
+normal  44:   160.6 KiB   674.6 KiB   771.0 KiB   -96.3 KiB    32.1 KiB    21        ok
+normal  45:   401.5 KiB     6.8 MiB     8.9 MiB    -2.0 MiB    40.1 KiB   176        ok
+normal  46:   192.7 KiB     1.1 MiB     1.1 MiB     0          48.1 KiB    25        ok
+normal  47:   674.6 KiB     2.5 MiB     2.5 MiB     0          56.2 KiB    47        ok
+normal  48:   257.0 KiB     1.2 MiB     1.5 MiB  -257.0 KiB    64.2 KiB    20        ok
+normal  49:   722.8 KiB    16.0 MiB    16.0 MiB     0          80.3 KiB   206        ok
+normal  50:   963.7 KiB     2.8 MiB     2.6 MiB   192.7 KiB    96.3 KiB    30        not all freed
+normal  51:     1.3 MiB     5.1 MiB     5.1 MiB     0         112.4 KiB    47        ok
+normal  52:   514.0 KiB     2.5 MiB     2.5 MiB     0         128.5 KiB    20        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     5.9 Mi    553.7 Mi      3.2 Gi     -2.6 Gi    110   B       5.2 M    ok
+     large:   194.6 Mi    753.0 Mi    703.4 Mi     49.5 Mi    964.0 KiB   803        not all freed
+      huge:     0           0           0           0                                ok
+     total:   200.5 MiB     1.2 GiB     3.9 GiB    -2.6 GiB                          ok
+malloc req:    24.1 MiB     1.1 GiB     3.3 GiB    -2.1 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB     9.0 GiB     2.6 GiB     6.3 GiB                          
+     reset:    16.2 MiB
+    purged:   706.8 MiB
+   touched:   139.3 MiB  1023.6 MiB   918.2 MiB   105.4 MiB                          not all freed
+  segments:    10          15          10           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   736           4.4 Ki      3.8 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    54.8 Ki 
+ -noretire:   974.0 Ki 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   213      
+   commits:    16.2 Ki 
+    resets:     1      
+    purges:   382      
+   threads:   206         211           5         206                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    19.684 s
+   process: user: 24.321 s, system: 6.116 s, faults: 0, rss: 749.5 MiB, commit: 6.5 GiB
+Rebuild count: 16
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   445.6 KiB     5.5 MiB    13.2 MiB    -7.7 MiB     8   B     722.0 K    ok
+normal   4:   178.9 KiB    56.6 MiB    94.4 MiB   -37.7 MiB    32   B       1.8 M    ok
+normal   6:   380.2 KiB    32.4 MiB   112.6 MiB   -80.1 MiB    48   B     709.0 K    ok
+normal   8:     1.2 MiB    28.5 MiB    49.9 MiB   -21.4 MiB    64   B     468.1 K    ok
+normal   9:     2.4 MiB    54.8 MiB   104.1 MiB   -49.2 MiB    80   B     719.1 K    ok
+normal  10:     4.5 MiB    22.5 MiB    54.1 MiB   -31.6 MiB    96   B     246.6 K    ok
+normal  11:     4.0 KiB   598.3 KiB    59.9 MiB   -59.3 MiB   112   B       5.4 K    ok
+normal  12:     1.0 KiB     1.2 MiB    52.5 MiB   -51.3 MiB   128   B      10.1 K    ok
+normal  13:     3.4 MiB    55.9 MiB   120.6 MiB   -64.7 MiB   160   B     366.9 K    ok
+normal  14:    64.9 KiB    36.0 MiB    83.8 MiB   -47.8 MiB   192   B     196.8 K    ok
+normal  15:    23.0 KiB    14.0 MiB    24.7 MiB   -10.6 MiB   224   B      65.6 K    ok
+normal  16:    57.9 KiB    15.2 MiB    27.4 MiB   -12.1 MiB   256   B      62.4 K    ok
+normal  17:     1.9 MiB    62.8 MiB   175.9 MiB  -113.0 MiB   320   B     206.0 K    ok
+normal  18:     3.9 MiB    70.5 MiB   141.2 MiB   -70.7 MiB   384   B     192.5 K    ok
+normal  19:   100.8 MiB   106.0 MiB     5.1 MiB   100.8 MiB   448   B     248.1 K    not all freed
+normal  20:    20.0 KiB    29.8 MiB   117.7 MiB   -87.9 MiB   512   B      61.1 K    ok
+normal  21:     9.4 KiB    38.0 MiB   215.5 MiB  -177.5 MiB   640   B      62.3 K    ok
+normal  22:     1.2 MiB     1.7 MiB   964.5 KiB   823.7 KiB   768   B       2.3 K    not all freed
+normal  23:    20.2 KiB     5.7 MiB     6.9 MiB    -1.2 MiB   896   B       6.7 K    ok
+normal  24:    12.0 KiB     1.0 MiB     1.5 MiB  -555.1 KiB     1.0 KiB     1.0 K    ok
+normal  25:    12.5 KiB   370.1 KiB   346.3 MiB  -345.9 MiB     1.2 KiB   295        ok
+normal  26:   176.1 KiB   240.9 KiB   177.6 KiB    63.2 KiB     1.5 KiB   160        not all freed
+normal  27:    82.5 KiB     1.3 MiB     1.3 MiB    10.5 KiB     1.7 KiB   770        not all freed
+normal  28:    14.0 KiB   299.1 KiB   295.1 KiB     4.0 KiB     2.0 KiB   149        not all freed
+normal  29:    62.7 KiB   629.9 KiB     6.1 MiB    -5.5 MiB     2.5 KiB   251        ok
+normal  30:     9.0 KiB   117.4 KiB    13.1 MiB   -13.0 MiB     3.0 KiB    39        ok
+normal  31:    52.7 KiB   207.3 KiB   207.3 KiB     0           3.5 KiB    59        ok
+normal  32:    60.2 KiB   156.6 KiB   116.4 KiB    40.1 KiB     4.0 KiB    39        not all freed
+normal  33:    45.1 KiB     1.0 MiB    53.9 MiB   -52.8 MiB     5.0 KiB   225        ok
+normal  34:     6.0 KiB   192.7 KiB     3.4 MiB    -3.2 MiB     6.0 KiB    32        ok
+normal  35:   210.8 KiB   534.0 KiB   449.7 KiB    84.3 KiB     7.0 KiB    76        not all freed
+normal  36:    40.1 KiB   200.7 KiB   200.7 KiB     0           8.0 KiB    25        ok
+normal  37:   662.5 KiB     3.4 MiB     2.1 GiB    -2.1 GiB    10.0 KiB   358        ok
+normal  38:   108.4 KiB   518.0 KiB     4.2 MiB    -3.7 MiB    12.0 KiB    43        ok
+normal  39:   196.7 KiB   801.1 KiB   801.1 KiB     0          14.0 KiB    57        ok
+normal  40:    16.0 KiB   465.8 KiB   706.7 KiB  -240.9 KiB    16.0 KiB    29        ok
+normal  41:   220.8 KiB     4.0 MiB     6.6 MiB    -2.6 MiB    20.0 KiB   209        ok
+normal  42:    96.3 KiB   746.9 KiB   867.3 KiB  -120.4 KiB    24.0 KiB    31        ok
+normal  43:   393.5 KiB     1.5 MiB     1.5 MiB     0          28.1 KiB    56        ok
+normal  44:   192.7 KiB   803.1 KiB   931.6 KiB  -128.5 KiB    32.1 KiB    25        ok
+normal  45:   481.8 KiB     8.1 MiB    10.5 MiB    -2.4 MiB    40.1 KiB   209        ok
+normal  46:   240.9 KiB     1.4 MiB     1.4 MiB     0          48.1 KiB    30        ok
+normal  47:   843.2 KiB     3.0 MiB     3.0 MiB     0          56.2 KiB    56        ok
+normal  48:   321.2 KiB     1.5 MiB     1.8 MiB  -321.2 KiB    64.2 KiB    24        ok
+normal  49:   883.4 KiB    19.1 MiB    19.1 MiB     0          80.3 KiB   245        ok
+normal  50:     1.1 MiB     3.3 MiB     3.1 MiB   192.7 KiB    96.3 KiB    36        not all freed
+normal  51:     1.6 MiB     6.1 MiB     6.1 MiB     0         112.4 KiB    56        ok
+normal  52:   642.5 KiB     3.0 MiB     3.0 MiB     0         128.5 KiB    24        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     6.8 Mi    661.1 Mi      3.9 Gi     -3.2 Gi    111   B       6.2 M    ok
+     large:   226.9 Mi    902.7 Mi    857.6 Mi     45.0 Mi    967.6 KiB   959        not all freed
+      huge:     0           0           0           0                                ok
+     total:   233.8 MiB     1.5 GiB     4.7 GiB    -3.2 GiB                          ok
+malloc req:    28.1 MiB     1.4 GiB     4.0 GiB    -2.6 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB     9.4 GiB     3.0 GiB     6.3 GiB                          
+     reset:    16.2 MiB
+    purged:   885.7 MiB
+   touched:   147.7 MiB     1.1 GiB     1.0 GiB   105.4 MiB                          not all freed
+  segments:    11          18          13           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   757           5.2 Ki      4.6 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    65.0 Ki 
+ -noretire:     1.1 Mi 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   215      
+   commits:    18.6 Ki 
+    resets:     1      
+    purges:   450      
+   threads:   208         214           6         208                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    25.612 s
+   process: user: 29.219 s, system: 7.248 s, faults: 0, rss: 749.5 MiB, commit: 6.5 GiB
+Rebuild count: 15
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   524.1 KiB     6.2 MiB    15.4 MiB    -9.1 MiB     8   B     822.4 K    ok
+normal   4:   178.9 KiB    65.1 MiB   109.9 MiB   -44.7 MiB    32   B       2.1 M    ok
+normal   6:   380.2 KiB    38.0 MiB   134.4 MiB   -96.3 MiB    48   B     830.3 K    ok
+normal   8:     1.2 MiB    33.5 MiB    59.2 MiB   -25.6 MiB    64   B     549.2 K    ok
+normal   9:     2.4 MiB    63.6 MiB   122.9 MiB   -59.2 MiB    80   B     834.3 K    ok
+normal  10:     5.5 MiB    25.7 MiB    63.9 MiB   -38.1 MiB    96   B     281.6 K    ok
+normal  11:     4.1 KiB   713.8 KiB    70.6 MiB   -69.9 MiB   112   B       6.5 K    ok
+normal  12:     1.1 KiB     1.2 MiB    61.4 MiB   -60.1 MiB   128   B      10.2 K    ok
+normal  13:     3.4 MiB    65.4 MiB   143.7 MiB   -78.3 MiB   160   B     428.9 K    ok
+normal  14:    64.9 KiB    41.7 MiB    98.7 MiB   -56.9 MiB   192   B     227.9 K    ok
+normal  15:    23.0 KiB    16.3 MiB    29.2 MiB   -12.8 MiB   224   B      76.7 K    ok
+normal  16:    57.9 KiB    17.7 MiB    32.3 MiB   -14.6 MiB   256   B      72.7 K    ok
+normal  17:     1.9 MiB    73.5 MiB   207.9 MiB  -134.4 MiB   320   B     240.8 K    ok
+normal  18:     3.9 MiB    82.1 MiB   167.2 MiB   -85.0 MiB   384   B     224.4 K    ok
+normal  19:   117.6 MiB   123.5 MiB     6.0 MiB   117.5 MiB   448   B     289.2 K    not all freed
+normal  20:    20.5 KiB    34.7 MiB   137.3 MiB  -102.5 MiB   512   B      71.1 K    ok
+normal  21:    10.0 KiB    44.4 MiB   253.7 MiB  -209.3 MiB   640   B      72.7 K    ok
+normal  22:     1.2 MiB     1.9 MiB     1.1 MiB   820.7 KiB   768   B       2.6 K    not all freed
+normal  23:    23.7 KiB     6.7 MiB     8.1 MiB    -1.4 MiB   896   B       7.8 K    ok
+normal  24:    14.0 KiB     1.0 MiB     1.6 MiB  -666.6 KiB     1.0 KiB     1.0 K    ok
+normal  25:    13.8 KiB   417.8 KiB   408.1 MiB  -407.7 MiB     1.2 KiB   333        ok
+normal  26:   176.1 KiB   249.9 KiB   209.3 KiB    40.6 KiB     1.5 KiB   166        not all freed
+normal  27:    94.8 KiB     1.5 MiB     1.5 MiB     8.7 KiB     1.7 KiB   896        not all freed
+normal  28:    16.0 KiB   311.2 KiB   307.2 KiB     4.0 KiB     2.0 KiB   155        not all freed
+normal  29:    65.2 KiB   720.3 KiB     7.1 MiB    -6.4 MiB     2.5 KiB   287        ok
+normal  30:     9.0 KiB   135.5 KiB    15.7 MiB   -15.6 MiB     3.0 KiB    45        ok
+normal  31:    63.2 KiB   238.9 KiB   238.9 KiB     0           3.5 KiB    68        ok
+normal  32:    68.2 KiB   176.6 KiB   132.5 KiB    44.1 KiB     4.0 KiB    44        not all freed
+normal  33:    50.1 KiB     1.2 MiB    64.5 MiB   -63.2 MiB     5.0 KiB   260        ok
+normal  34:     6.0 KiB   222.8 KiB     4.1 MiB    -3.9 MiB     6.0 KiB    37        ok
+normal  35:   231.9 KiB   604.3 KiB   520.0 KiB    84.3 KiB     7.0 KiB    86        not all freed
+normal  36:    48.1 KiB   232.9 KiB   232.9 KiB     0           8.0 KiB    29        ok
+normal  37:   742.9 KiB     4.0 MiB     2.4 GiB    -2.4 GiB    10.0 KiB   412        ok
+normal  38:   132.5 KiB   602.3 KiB     5.0 MiB    -4.4 MiB    12.0 KiB    50        ok
+normal  39:   238.9 KiB   927.6 KiB   927.6 KiB     0          14.0 KiB    66        ok
+normal  40:    16.0 KiB   530.0 KiB   819.2 KiB  -289.1 KiB    16.0 KiB    33        ok
+normal  41:   261.0 KiB     4.7 MiB     7.7 MiB    -3.0 MiB    20.0 KiB   242        ok
+normal  42:   120.4 KiB   867.3 KiB  1011.9 KiB  -144.5 KiB    24.0 KiB    36        ok
+normal  43:   477.8 KiB     1.7 MiB     1.7 MiB     0          28.1 KiB    65        ok
+normal  44:   224.8 KiB   931.6 KiB     1.0 MiB  -160.6 KiB    32.1 KiB    29        ok
+normal  45:   562.1 KiB     9.4 MiB    12.3 MiB    -2.9 MiB    40.1 KiB   242        ok
+normal  46:   337.3 KiB     1.6 MiB     1.6 MiB     0          48.1 KiB    35        ok
+normal  47:  1011.9 KiB     3.5 MiB     3.5 MiB     0          56.2 KiB    65        ok
+normal  48:   385.5 KiB     1.7 MiB     2.1 MiB  -385.5 KiB    64.2 KiB    28        ok
+normal  49:     1.0 MiB    22.1 MiB    22.1 MiB     0          80.3 KiB   284        ok
+normal  50:     1.3 MiB     3.9 MiB     3.7 MiB   192.7 KiB    96.3 KiB    42        not all freed
+normal  51:     1.9 MiB     7.1 MiB     7.1 MiB     0         112.4 KiB    65        ok
+normal  52:   771.0 KiB     3.5 MiB     3.5 MiB     0         128.5 KiB    28        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     7.7 Mi    768.6 Mi      4.6 Gi     -3.8 Gi    112   B       7.1 M    ok
+     large:   259.3 Mi      1.0 Gi   1011.7 Mi     40.5 Mi    970.2 KiB     1.1 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   267.1 MiB     1.7 GiB     5.6 GiB    -3.8 GiB                          ok
+malloc req:    32.1 MiB     1.6 GiB     4.8 GiB    -3.1 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB     9.8 GiB     3.5 GiB     6.3 GiB                          
+     reset:    16.2 MiB
+    purged:     1.0 GiB
+   touched:   156.1 MiB     1.3 GiB     1.2 GiB   105.3 MiB                          not all freed
+  segments:    12          21          16           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   780           6.0 Ki      5.4 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    74.9 Ki 
+ -noretire:     1.2 Mi 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   216      
+   commits:    21.3 Ki 
+    resets:     1      
+    purges:   533      
+   threads:   209         215           7         208                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    31.603 s
+   process: user: 34.099 s, system: 8.536 s, faults: 0, rss: 761.6 MiB, commit: 6.5 GiB
+Rebuild count: 14
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   602.6 KiB     7.0 MiB    17.6 MiB   -10.6 MiB     8   B     922.7 K    ok
+normal   4:   178.9 KiB    73.6 MiB   125.4 MiB   -51.7 MiB    32   B       2.4 M    ok
+normal   6:   380.2 KiB    43.5 MiB   156.1 MiB  -112.5 MiB    48   B     951.6 K    ok
+normal   8:     1.2 MiB    38.4 MiB    68.4 MiB   -29.9 MiB    64   B     630.4 K    ok
+normal   9:     2.4 MiB    72.4 MiB   141.7 MiB   -69.3 MiB    80   B     949.4 K    ok
+normal  10:     6.4 MiB    28.9 MiB    73.6 MiB   -44.6 MiB    96   B     316.7 K    ok
+normal  11:     4.2 KiB   829.3 KiB    81.2 MiB   -80.4 MiB   112   B       7.5 K    ok
+normal  12:     1.2 KiB     1.2 MiB    70.2 MiB   -68.9 MiB   128   B      10.2 K    ok
+normal  13:     3.4 MiB    74.8 MiB   166.8 MiB   -91.9 MiB   160   B     490.8 K    ok
+normal  14:    64.9 KiB    47.4 MiB   113.5 MiB   -66.1 MiB   192   B     259.1 K    ok
+normal  15:    23.0 KiB    18.7 MiB    33.7 MiB   -14.9 MiB   224   B      87.7 K    ok
+normal  16:    57.9 KiB    20.2 MiB    37.3 MiB   -17.0 MiB   256   B      82.9 K    ok
+normal  17:     1.9 MiB    84.0 MiB   239.9 MiB  -155.9 MiB   320   B     275.5 K    ok
+normal  18:     3.9 MiB    93.8 MiB   193.1 MiB   -99.3 MiB   384   B     256.3 K    ok
+normal  19:   134.3 MiB   141.2 MiB     6.8 MiB   134.3 MiB   448   B     330.5 K    not all freed
+normal  20:    21.0 KiB    39.6 MiB   156.8 MiB  -117.2 MiB   512   B      81.1 K    ok
+normal  21:    10.6 KiB    50.7 MiB   292.0 MiB  -241.2 MiB   640   B      83.1 K    ok
+normal  22:     1.3 MiB     2.0 MiB     1.2 MiB   817.6 KiB   768   B       2.8 K    not all freed
+normal  23:    27.2 KiB     7.7 MiB     9.3 MiB    -1.6 MiB   896   B       9.0 K    ok
+normal  24:    16.0 KiB     1.0 MiB     1.7 MiB  -778.0 KiB     1.0 KiB     1.0 K    ok
+normal  25:    15.0 KiB   465.5 KiB   470.0 MiB  -469.5 MiB     1.2 KiB   371        ok
+normal  26:   176.1 KiB   259.0 KiB   240.9 KiB    18.0 KiB     1.5 KiB   172        not all freed
+normal  27:   107.1 KiB     1.7 MiB     1.7 MiB     7.0 KiB     1.7 KiB     1.0 K    not all freed
+normal  28:    18.0 KiB   323.2 KiB   319.2 KiB     4.0 KiB     2.0 KiB   161        not all freed
+normal  29:    67.7 KiB   810.6 KiB     8.0 MiB    -7.2 MiB     2.5 KiB   323        ok
+normal  30:     9.0 KiB   153.6 KiB    18.3 MiB   -18.2 MiB     3.0 KiB    51        ok
+normal  31:    70.2 KiB   270.5 KiB   270.5 KiB     0           3.5 KiB    77        ok
+normal  32:    76.2 KiB   196.7 KiB   148.5 KiB    48.1 KiB     4.0 KiB    49        not all freed
+normal  33:    55.2 KiB     1.4 MiB    75.0 MiB   -73.5 MiB     5.0 KiB   295        ok
+normal  34:     6.0 KiB   252.9 KiB     4.7 MiB    -4.5 MiB     6.0 KiB    42        ok
+normal  35:   252.9 KiB   674.6 KiB   590.3 KiB    84.3 KiB     7.0 KiB    96        not all freed
+normal  36:    56.2 KiB   265.0 KiB   265.0 KiB     0           8.0 KiB    33        ok
+normal  37:   823.2 KiB     4.5 MiB     2.8 GiB    -2.8 GiB    10.0 KiB   466        ok
+normal  38:   144.5 KiB   686.6 KiB     5.9 MiB    -5.2 MiB    12.0 KiB    57        ok
+normal  39:   281.0 KiB     1.0 MiB     1.0 MiB     0          14.0 KiB    75        ok
+normal  40:    16.0 KiB   594.3 KiB   931.6 KiB  -337.3 KiB    16.0 KiB    37        ok
+normal  41:   301.1 KiB     5.3 MiB     8.7 MiB    -3.3 MiB    20.0 KiB   275        ok
+normal  42:   120.4 KiB   987.8 KiB     1.1 MiB  -168.6 KiB    24.0 KiB    41        ok
+normal  43:   562.1 KiB     2.0 MiB     2.0 MiB     0          28.1 KiB    74        ok
+normal  44:   257.0 KiB     1.0 MiB     1.2 MiB  -192.7 KiB    32.1 KiB    33        ok
+normal  45:   642.5 KiB    10.7 MiB    14.0 MiB    -3.2 MiB    40.1 KiB   275        ok
+normal  46:   385.5 KiB     1.8 MiB     1.8 MiB     0          48.1 KiB    40        ok
+normal  47:     1.1 MiB     4.0 MiB     4.0 MiB     0          56.2 KiB    74        ok
+normal  48:   449.7 KiB     2.0 MiB     2.4 MiB  -449.7 KiB    64.2 KiB    32        ok
+normal  49:     1.1 MiB    25.2 MiB    25.2 MiB     0          80.3 KiB   323        ok
+normal  50:     1.5 MiB     4.5 MiB     4.3 MiB   192.7 KiB    96.3 KiB    48        not all freed
+normal  51:     2.2 MiB     8.0 MiB     8.0 MiB     0         112.4 KiB    74        ok
+normal  52:   899.5 KiB     4.0 MiB     4.0 MiB     0         128.5 KiB    32        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     8.7 Mi    876.1 Mi      5.3 Gi     -4.4 Gi    112   B       8.2 M    ok
+     large:   291.7 Mi      1.1 Gi      1.1 Gi     36.0 Mi    972.1 KiB     1.2 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   300.4 MiB     2.0 GiB     6.4 GiB    -4.4 GiB                          ok
+malloc req:    36.1 MiB     1.8 GiB     5.5 GiB    -3.7 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB    10.2 GiB     3.9 GiB     6.3 GiB                          
+     reset:    16.2 MiB
+    purged:     1.2 GiB
+   touched:   164.6 MiB     1.5 GiB     1.4 GiB   105.3 MiB                          not all freed
+  segments:    13          24          19           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   803           6.9 Ki      6.2 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    84.9 Ki 
+ -noretire:     1.3 Mi 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   216      
+   commits:    24.0 Ki 
+    resets:     1      
+    purges:   599      
+   threads:   209         216           8         208                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    37.526 s
+   process: user: 39.021 s, system: 9.685 s, faults: 0, rss: 763.2 MiB, commit: 6.5 GiB
+Rebuild count: 13
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   681.2 KiB     7.8 MiB    19.8 MiB   -12.0 MiB     8   B       1.0 M    ok
+normal   4:   178.9 KiB    82.1 MiB   140.9 MiB   -58.8 MiB    32   B       2.6 M    ok
+normal   6:   380.2 KiB    49.1 MiB   177.9 MiB  -128.8 MiB    48   B       1.0 M    ok
+normal   8:     1.2 MiB    43.4 MiB    77.7 MiB   -34.2 MiB    64   B     711.6 K    ok
+normal   9:     2.4 MiB    81.2 MiB   160.5 MiB   -79.3 MiB    80   B       1.0 M    ok
+normal  10:     7.3 MiB    32.2 MiB    83.3 MiB   -51.1 MiB    96   B     351.7 K    ok
+normal  11:     4.3 KiB   944.8 KiB    91.9 MiB   -91.0 MiB   112   B       8.6 K    ok
+normal  12:     1.3 KiB     1.2 MiB    79.0 MiB   -77.7 MiB   128   B      10.2 K    ok
+normal  13:     3.4 MiB    84.3 MiB   189.9 MiB  -105.6 MiB   160   B     552.7 K    ok
+normal  14:    64.9 KiB    53.1 MiB   128.4 MiB   -75.3 MiB   192   B     290.2 K    ok
+normal  15:    23.0 KiB    21.1 MiB    38.2 MiB   -17.1 MiB   224   B      98.8 K    ok
+normal  16:    57.9 KiB    22.7 MiB    42.2 MiB   -19.5 MiB   256   B      93.2 K    ok
+normal  17:     1.9 MiB    94.6 MiB   271.9 MiB  -177.3 MiB   320   B     310.1 K    ok
+normal  18:     3.9 MiB   105.5 MiB   219.1 MiB  -113.6 MiB   384   B     288.2 K    ok
+normal  19:   151.1 MiB   158.8 MiB     7.7 MiB   151.1 MiB   448   B     371.8 K    not all freed
+normal  20:    21.5 KiB    44.5 MiB   176.4 MiB  -131.9 MiB   512   B      91.2 K    ok
+normal  21:    11.2 KiB    57.0 MiB   330.6 MiB  -273.5 MiB   640   B      93.5 K    ok
+normal  22:     1.4 MiB     2.2 MiB     1.4 MiB   814.6 KiB   768   B       3.0 K    not all freed
+normal  23:    30.7 KiB     8.6 MiB    10.5 MiB    -1.9 MiB   896   B      10.1 K    ok
+normal  24:    18.0 KiB     1.0 MiB     1.9 MiB  -889.4 KiB     1.0 KiB     1.0 K    ok
+normal  25:    16.3 KiB   513.2 KiB   532.0 MiB  -531.5 MiB     1.2 KiB   409        ok
+normal  26:   176.1 KiB   268.0 KiB   272.5 KiB    -4.5 KiB     1.5 KiB   178        ok
+normal  27:   119.4 KiB     1.9 MiB     1.9 MiB     5.2 KiB     1.7 KiB     1.1 K    not all freed
+normal  28:    20.0 KiB   335.3 KiB   331.2 KiB     4.0 KiB     2.0 KiB   167        not all freed
+normal  29:    70.2 KiB   901.0 KiB     9.0 MiB    -8.2 MiB     2.5 KiB   359        ok
+normal  30:     9.0 KiB   171.6 KiB    21.0 MiB   -20.8 MiB     3.0 KiB    57        ok
+normal  31:    80.8 KiB   302.1 KiB   302.1 KiB     0           3.5 KiB    86        ok
+normal  32:    84.3 KiB   216.8 KiB   164.6 KiB    52.2 KiB     4.0 KiB    54        not all freed
+normal  33:    60.2 KiB     1.6 MiB    85.2 MiB   -83.6 MiB     5.0 KiB   330        ok
+normal  34:     6.0 KiB   283.1 KiB     5.4 MiB    -5.2 MiB     6.0 KiB    47        ok
+normal  35:   274.0 KiB   744.9 KiB   660.5 KiB    84.3 KiB     7.0 KiB   106        not all freed
+normal  36:    64.2 KiB   297.1 KiB   297.1 KiB     0           8.0 KiB    37        ok
+normal  37:   903.5 KiB     5.0 MiB     3.2 GiB    -3.2 GiB    10.0 KiB   520        ok
+normal  38:   168.6 KiB   771.0 KiB     6.7 MiB    -5.9 MiB    12.0 KiB    64        ok
+normal  39:   323.2 KiB     1.1 MiB     1.1 MiB     0          14.0 KiB    84        ok
+normal  40:    16.0 KiB   658.5 KiB     1.0 MiB  -385.5 KiB    16.0 KiB    41        ok
+normal  41:   341.3 KiB     6.0 MiB     9.8 MiB    -3.8 MiB    20.0 KiB   308        ok
+normal  42:   120.4 KiB     1.0 MiB     1.2 MiB  -192.7 KiB    24.0 KiB    46        ok
+normal  43:   646.5 KiB     2.2 MiB     2.2 MiB     0          28.1 KiB    83        ok
+normal  44:   289.1 KiB     1.1 MiB     1.3 MiB  -224.8 KiB    32.1 KiB    37        ok
+normal  45:   722.8 KiB    12.0 MiB    15.7 MiB    -3.7 MiB    40.1 KiB   308        ok
+normal  46:   481.8 KiB     2.1 MiB     2.1 MiB     0          48.1 KiB    45        ok
+normal  47:     1.3 MiB     4.5 MiB     4.5 MiB     0          56.2 KiB    83        ok
+normal  48:   514.0 KiB     2.2 MiB     2.7 MiB  -514.0 KiB    64.2 KiB    36        ok
+normal  49:     1.3 MiB    28.2 MiB    28.2 MiB     0          80.3 KiB   362        ok
+normal  50:     1.6 MiB     5.0 MiB     4.8 MiB   192.7 KiB    96.3 KiB    54        not all freed
+normal  51:     2.6 MiB     9.0 MiB     9.0 MiB     0         112.4 KiB    83        ok
+normal  52:     1.0 MiB     4.5 MiB     4.5 MiB     0         128.5 KiB    36        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:     9.6 Mi    983.6 Mi      6.0 Gi     -5.0 Gi    112   B       9.2 M    ok
+     large:   324.0 Mi      1.3 Gi      1.2 Gi     31.4 Mi    973.6 KiB     1.4 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   333.6 MiB     2.2 GiB     7.3 GiB    -5.0 GiB                          ok
+malloc req:    40.2 MiB     2.0 GiB     6.3 GiB    -4.2 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB    10.7 GiB     4.4 GiB     6.2 GiB                          
+     reset:    16.2 MiB
+    purged:     1.3 GiB
+   touched:   173.1 MiB     1.7 GiB     1.6 GiB   105.3 MiB                          not all freed
+  segments:    14          26          21           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   827           7.7 Ki      7.1 Ki    663                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:    95.2 Ki 
+ -noretire:     1.5 Mi 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   216      
+   commits:    26.8 Ki 
+    resets:     1      
+    purges:   673      
+   threads:   209         217           9         208                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    43.481 s
+   process: user: 43.901 s, system: 10.813 s, faults: 0, rss: 772.2 MiB, commit: 6.5 GiB
+Rebuild count: 12
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   759.7 KiB     8.5 MiB    22.0 MiB   -13.5 MiB     8   B       1.1 M    ok
+normal   4:   178.9 KiB    90.5 MiB   156.4 MiB   -65.8 MiB    32   B       2.9 M    ok
+normal   6:   380.2 KiB    54.6 MiB   199.6 MiB  -145.0 MiB    48   B       1.1 M    ok
+normal   8:     1.2 MiB    48.3 MiB    86.9 MiB   -38.5 MiB    64   B     792.7 K    ok
+normal   9:     2.4 MiB    90.0 MiB   179.3 MiB   -89.3 MiB    80   B       1.1 M    ok
+normal  10:     8.2 MiB    35.4 MiB    93.0 MiB   -57.6 MiB    96   B     386.7 K    ok
+normal  11:     4.5 KiB     1.0 MiB   102.6 MiB  -101.6 MiB   112   B       9.6 K    ok
+normal  12:     1.5 KiB     1.2 MiB    87.8 MiB   -86.5 MiB   128   B      10.2 K    ok
+normal  13:     3.4 MiB    93.8 MiB   213.0 MiB  -119.2 MiB   160   B     614.7 K    ok
+normal  14:    64.9 KiB    58.8 MiB   143.3 MiB   -84.4 MiB   192   B     321.4 K    ok
+normal  15:    23.0 KiB    23.4 MiB    42.7 MiB   -19.2 MiB   224   B     109.9 K    ok
+normal  16:    57.9 KiB    25.2 MiB    47.2 MiB   -21.9 MiB   256   B     103.4 K    ok
+normal  17:     1.9 MiB   105.2 MiB   303.9 MiB  -198.7 MiB   320   B     344.9 K    ok
+normal  18:     3.9 MiB   117.2 MiB   245.1 MiB  -127.8 MiB   384   B     320.1 K    ok
+normal  19:   167.9 MiB   176.4 MiB     8.5 MiB   167.8 MiB   448   B     413.0 K    not all freed
+normal  20:    22.0 KiB    49.4 MiB   195.9 MiB  -146.5 MiB   512   B     101.2 K    ok
+normal  21:    11.9 KiB    63.4 MiB   368.8 MiB  -305.4 MiB   640   B     103.9 K    ok
+normal  22:     1.5 MiB     2.4 MiB     1.6 MiB   811.6 KiB   768   B       3.2 K    not all freed
+normal  23:    34.2 KiB     9.6 MiB    11.7 MiB    -2.0 MiB   896   B      11.2 K    ok
+normal  24:    20.0 KiB     1.0 MiB     2.0 MiB -1000.9 KiB     1.0 KiB     1.0 K    ok
+normal  25:    17.5 KiB   560.9 KiB   594.0 MiB  -593.4 MiB     1.2 KiB   447        ok
+normal  26:   176.1 KiB   277.0 KiB   304.1 KiB   -27.1 KiB     1.5 KiB   184        ok
+normal  27:   131.7 KiB     2.1 MiB     2.1 MiB     3.5 KiB     1.7 KiB     1.2 K    not all freed
+normal  28:    22.0 KiB   347.3 KiB   343.3 KiB     4.0 KiB     2.0 KiB   173        not all freed
+normal  29:    72.7 KiB   991.3 KiB    10.0 MiB    -9.1 MiB     2.5 KiB   395        ok
+normal  30:     9.0 KiB   189.7 KiB    23.6 MiB   -23.4 MiB     3.0 KiB    63        ok
+normal  31:    87.8 KiB   333.8 KiB   333.8 KiB     0           3.5 KiB    95        ok
+normal  32:    92.3 KiB   236.9 KiB   180.7 KiB    56.2 KiB     4.0 KiB    59        not all freed
+normal  33:    65.2 KiB     1.7 MiB    95.4 MiB   -93.7 MiB     5.0 KiB   365        ok
+normal  34:     6.0 KiB   313.2 KiB     6.1 MiB    -5.8 MiB     6.0 KiB    52        ok
+normal  35:   302.1 KiB   815.1 KiB   730.8 KiB    84.3 KiB     7.0 KiB   116        not all freed
+normal  36:    72.2 KiB   329.2 KiB   329.2 KiB     0           8.0 KiB    41        ok
+normal  37:   983.8 KiB     5.6 MiB     3.6 GiB    -3.6 GiB    10.0 KiB   574        ok
+normal  38:   192.7 KiB   855.3 KiB     7.5 MiB    -6.7 MiB    12.0 KiB    71        ok
+normal  39:   365.4 KiB     1.2 MiB     1.2 MiB     0          14.0 KiB    93        ok
+normal  40:    16.0 KiB   722.8 KiB     1.1 MiB  -433.6 KiB    16.0 KiB    45        ok
+normal  41:   381.4 KiB     6.6 MiB    10.9 MiB    -4.2 MiB    20.0 KiB   341        ok
+normal  42:   120.4 KiB     1.1 MiB     1.4 MiB  -216.8 KiB    24.0 KiB    51        ok
+normal  43:   730.8 KiB     2.5 MiB     2.5 MiB     0          28.1 KiB    92        ok
+normal  44:   321.2 KiB     1.2 MiB     1.5 MiB  -257.0 KiB    32.1 KiB    41        ok
+normal  45:   803.1 KiB    13.3 MiB    17.5 MiB    -4.1 MiB    40.1 KiB   341        ok
+normal  46:   530.0 KiB     2.3 MiB     2.3 MiB     0          48.1 KiB    50        ok
+normal  47:     1.4 MiB     5.0 MiB     5.0 MiB     0          56.2 KiB    92        ok
+normal  48:   578.2 KiB     2.5 MiB     3.0 MiB  -578.2 KiB    64.2 KiB    40        ok
+normal  49:     1.4 MiB    31.3 MiB    31.3 MiB     0          80.3 KiB   401        ok
+normal  50:     1.8 MiB     5.6 MiB     5.4 MiB   192.7 KiB    96.3 KiB    60        not all freed
+normal  51:     2.9 MiB    10.0 MiB    10.0 MiB     0         112.4 KiB    92        ok
+normal  52:     1.1 MiB     5.0 MiB     5.0 MiB     0         128.5 KiB    40        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    10.5 Mi      1.0 Gi      6.7 Gi     -5.6 Gi    113   B      10.1 M    ok
+     large:   356.4 Mi      1.4 Gi      1.4 Gi     26.9 Mi    974.8 KiB     1.5 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   366.9 MiB     2.5 GiB     8.1 GiB    -5.6 GiB                          ok
+malloc req:    44.2 MiB     2.3 GiB     7.0 GiB    -4.7 GiB                          ok
+
+  reserved:     7.0 GiB     7.0 GiB     0           7.0 GiB                          
+ committed:     6.5 GiB    11.1 GiB     4.9 GiB     6.2 GiB                          
+     reset:    16.2 MiB
+    purged:     1.5 GiB
+   touched:   181.6 MiB     1.9 GiB     1.8 GiB   105.4 MiB                          not all freed
+  segments:    15          29          24           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   849           8.5 Ki      7.9 Ki    664                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   105.3 Ki 
+ -noretire:     1.7 Mi 
+    arenas:     7      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   216      
+   commits:    29.9 Ki 
+    resets:     1      
+    purges:   745      
+   threads:   209         218          10         208                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    49.488 s
+   process: user: 48.888 s, system: 11.992 s, faults: 0, rss: 774.3 MiB, commit: 6.5 GiB
+Rebuild count: 11
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   838.2 KiB     9.3 MiB    24.3 MiB   -14.9 MiB     8   B       1.2 M    ok
+normal   4:   178.9 KiB    99.0 MiB   171.9 MiB   -72.8 MiB    32   B       3.2 M    ok
+normal   6:   380.2 KiB    60.2 MiB   221.4 MiB  -161.1 MiB    48   B       1.3 M    ok
+normal   8:     1.2 MiB    53.3 MiB    96.1 MiB   -42.8 MiB    64   B     873.9 K    ok
+normal   9:     2.4 MiB    98.7 MiB   198.1 MiB   -99.3 MiB    80   B       1.2 M    ok
+normal  10:     9.1 MiB    38.6 MiB   102.7 MiB   -64.1 MiB    96   B     421.8 K    ok
+normal  11:     4.6 KiB     1.1 MiB   113.3 MiB  -112.2 MiB   112   B      10.7 K    ok
+normal  12:     1.6 KiB     1.2 MiB    96.6 MiB   -95.3 MiB   128   B      10.3 K    ok
+normal  13:     3.4 MiB   103.2 MiB   236.1 MiB  -132.8 MiB   160   B     676.6 K    ok
+normal  14:    64.9 KiB    64.5 MiB   158.1 MiB   -93.6 MiB   192   B     352.5 K    ok
+normal  15:    23.0 KiB    25.8 MiB    47.2 MiB   -21.3 MiB   224   B     121.0 K    ok
+normal  16:    57.9 KiB    27.7 MiB    52.1 MiB   -24.4 MiB   256   B     113.7 K    ok
+normal  17:     1.9 MiB   115.8 MiB   335.9 MiB  -220.1 MiB   320   B     379.5 K    ok
+normal  18:     3.9 MiB   128.9 MiB   271.0 MiB  -142.1 MiB   384   B     352.0 K    ok
+normal  19:   184.7 MiB   194.1 MiB     9.4 MiB   184.6 MiB   448   B     454.3 K    not all freed
+normal  20:    22.5 KiB    54.3 MiB   215.5 MiB  -161.2 MiB   512   B     111.2 K    ok
+normal  21:    12.5 KiB    69.7 MiB   406.6 MiB  -336.8 MiB   640   B     114.3 K    ok
+normal  22:     1.6 MiB     2.5 MiB     1.7 MiB   808.6 KiB   768   B       3.5 K    not all freed
+normal  23:    37.7 KiB    10.5 MiB    12.8 MiB    -2.2 MiB   896   B      12.3 K    ok
+normal  24:    22.0 KiB     1.0 MiB     2.1 MiB    -1.0 MiB     1.0 KiB     1.0 K    ok
+normal  25:    18.8 KiB   608.6 KiB   655.7 MiB  -655.1 MiB     1.2 KiB   485        ok
+normal  26:   176.1 KiB   284.6 KiB   334.3 KiB   -49.6 KiB     1.5 KiB   189        ok
+normal  27:   145.8 KiB     2.3 MiB     2.3 MiB     1.7 KiB     1.7 KiB     1.4 K    not all freed
+normal  28:    24.0 KiB   359.4 KiB   355.3 KiB     4.0 KiB     2.0 KiB   179        not all freed
+normal  29:    75.2 KiB     1.0 MiB    11.2 MiB   -10.1 MiB     2.5 KiB   431        ok
+normal  30:     9.0 KiB   204.8 KiB    26.2 MiB   -26.0 MiB     3.0 KiB    68        ok
+normal  31:    98.3 KiB   368.9 KiB   368.9 KiB     0           3.5 KiB   105        ok
+normal  32:   100.3 KiB   257.0 KiB   196.7 KiB    60.2 KiB     4.0 KiB    64        not all freed
+normal  33:    70.2 KiB     1.9 MiB   106.2 MiB  -104.3 MiB     5.0 KiB   400        ok
+normal  34:     6.0 KiB   337.3 KiB     6.8 MiB    -6.5 MiB     6.0 KiB    56        ok
+normal  35:   330.2 KiB   892.4 KiB   808.1 KiB    84.3 KiB     7.0 KiB   127        not all freed
+normal  36:    80.3 KiB   361.4 KiB   361.4 KiB     0           8.0 KiB    45        ok
+normal  37:     1.0 MiB     6.1 MiB     4.0 GiB    -4.0 GiB    10.0 KiB   628        ok
+normal  38:   204.8 KiB   927.6 KiB     8.3 MiB    -7.4 MiB    12.0 KiB    77        ok
+normal  39:   407.5 KiB     1.4 MiB     1.4 MiB     0          14.0 KiB   103        ok
+normal  40:    16.0 KiB   787.0 KiB     1.2 MiB  -481.8 KiB    16.0 KiB    49        ok
+normal  41:   421.6 KiB     7.3 MiB    11.9 MiB    -4.6 MiB    20.0 KiB   374        ok
+normal  42:   120.4 KiB     1.2 MiB     1.5 MiB  -240.9 KiB    24.0 KiB    55        ok
+normal  43:   815.1 KiB     2.7 MiB     2.7 MiB     0          28.1 KiB   102        ok
+normal  44:   353.3 KiB     1.4 MiB     1.6 MiB  -289.1 KiB    32.1 KiB    45        ok
+normal  45:   883.4 KiB    14.6 MiB    19.2 MiB    -4.6 MiB    40.1 KiB   374        ok
+normal  46:   578.2 KiB     2.5 MiB     2.5 MiB     0          48.1 KiB    54        ok
+normal  47:     1.6 MiB     5.5 MiB     5.5 MiB     0          56.2 KiB   102        ok
+normal  48:   642.5 KiB     2.7 MiB     3.3 MiB  -642.5 KiB    64.2 KiB    44        ok
+normal  49:     1.6 MiB    34.3 MiB    34.3 MiB     0          80.3 KiB   440        ok
+normal  50:     2.0 MiB     6.0 MiB     5.9 MiB   192.7 KiB    96.3 KiB    65        not all freed
+normal  51:     3.2 MiB    11.1 MiB    11.1 MiB     0         112.4 KiB   102        ok
+normal  52:     1.2 MiB     5.5 MiB     5.5 MiB     0         128.5 KiB    44        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    11.4 Mi      1.1 Gi      7.4 Gi     -6.2 Gi    113   B      11.1 M    ok
+     large:   388.7 Mi      1.6 Gi      1.5 Gi     22.4 Mi    975.8 KiB     1.7 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   400.2 MiB     2.7 GiB     9.0 GiB    -6.2 GiB                          ok
+malloc req:    48.2 MiB     2.5 GiB     7.7 GiB    -5.2 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    12.4 GiB     5.3 GiB     7.1 GiB                          
+     reset:    16.2 MiB
+    purged:     1.7 GiB
+   touched:   190.1 MiB     2.1 GiB     2.0 GiB   105.4 MiB                          not all freed
+  segments:    16          31          26           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   872           9.4 Ki      8.8 Ki    664                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   115.7 Ki 
+ -noretire:     1.8 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   228      
+   commits:    32.2 Ki 
+    resets:     1      
+    purges:   809      
+   threads:   220         231          11         220                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    55.422 s
+   process: user: 53.784 s, system: 13.188 s, faults: 0, rss: 774.3 MiB, commit: 7.1 GiB
+Rebuild count: 10
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   916.8 KiB    10.1 MiB    26.5 MiB   -16.4 MiB     8   B       1.3 M    ok
+normal   4:   178.9 KiB   107.5 MiB   187.4 MiB   -79.9 MiB    32   B       3.5 M    ok
+normal   6:   380.2 KiB    65.7 MiB   243.1 MiB  -177.3 MiB    48   B       1.4 M    ok
+normal   8:     1.2 MiB    58.2 MiB   105.4 MiB   -47.1 MiB    64   B     955.0 K    ok
+normal   9:     2.4 MiB   107.5 MiB   216.9 MiB  -109.3 MiB    80   B       1.4 M    ok
+normal  10:    10.0 MiB    41.8 MiB   112.4 MiB   -70.6 MiB    96   B     456.8 K    ok
+normal  11:     4.7 KiB     1.2 MiB   124.0 MiB  -122.8 MiB   112   B      11.7 K    ok
+normal  12:     1.7 KiB     1.2 MiB   105.4 MiB  -104.1 MiB   128   B      10.3 K    ok
+normal  13:     3.4 MiB   112.7 MiB   259.2 MiB  -146.5 MiB   160   B     738.6 K    ok
+normal  14:    64.9 KiB    70.2 MiB   173.0 MiB  -102.8 MiB   192   B     383.7 K    ok
+normal  15:    23.0 KiB    28.2 MiB    51.7 MiB   -23.5 MiB   224   B     132.1 K    ok
+normal  16:    57.9 KiB    30.2 MiB    57.1 MiB   -26.8 MiB   256   B     123.9 K    ok
+normal  17:     1.9 MiB   126.4 MiB   367.9 MiB  -241.5 MiB   320   B     414.2 K    ok
+normal  18:     3.9 MiB   140.6 MiB   297.0 MiB  -156.4 MiB   384   B     383.9 K    ok
+normal  19:   201.4 MiB   211.7 MiB    10.3 MiB   201.4 MiB   448   B     495.6 K    not all freed
+normal  20:    23.0 KiB    59.2 MiB   235.0 MiB  -175.8 MiB   512   B     121.2 K    ok
+normal  21:    13.1 KiB    76.1 MiB   444.3 MiB  -368.1 MiB   640   B     124.7 K    ok
+normal  22:     1.6 MiB     2.7 MiB     1.9 MiB   805.6 KiB   768   B       3.7 K    not all freed
+normal  23:    41.2 KiB    11.5 MiB    14.0 MiB    -2.4 MiB   896   B      13.5 K    ok
+normal  24:    24.0 KiB     1.0 MiB     2.2 MiB    -1.1 MiB     1.0 KiB     1.0 K    ok
+normal  25:    20.0 KiB   656.3 KiB   717.5 MiB  -716.9 MiB     1.2 KiB   523        ok
+normal  26:   176.1 KiB   293.6 KiB   365.9 KiB   -72.2 KiB     1.5 KiB   195        ok
+normal  27:   158.1 KiB     2.6 MiB     2.6 MiB     0           1.7 KiB     1.5 K    ok
+normal  28:    26.1 KiB   371.4 KiB   367.4 KiB     4.0 KiB     2.0 KiB   185        not all freed
+normal  29:    77.8 KiB     1.1 MiB    11.9 MiB   -10.8 MiB     2.5 KiB   467        ok
+normal  30:     9.0 KiB   222.8 KiB    28.8 MiB   -28.6 MiB     3.0 KiB    74        ok
+normal  31:   108.9 KiB   400.5 KiB   400.5 KiB     0           3.5 KiB   114        ok
+normal  32:   108.4 KiB   277.0 KiB   212.8 KiB    64.2 KiB     4.0 KiB    69        not all freed
+normal  33:    75.2 KiB     2.1 MiB   116.9 MiB  -114.8 MiB     5.0 KiB   435        ok
+normal  34:     6.0 KiB   367.4 KiB     7.5 MiB    -7.1 MiB     6.0 KiB    61        ok
+normal  35:   358.4 KiB   962.7 KiB   878.4 KiB    84.3 KiB     7.0 KiB   137        not all freed
+normal  36:    88.3 KiB   393.5 KiB   393.5 KiB     0           8.0 KiB    49        ok
+normal  37:     1.1 MiB     6.6 MiB     4.4 GiB    -4.4 GiB    10.0 KiB   682        ok
+normal  38:   228.8 KiB  1011.9 KiB     9.2 MiB    -8.2 MiB    12.0 KiB    84        ok
+normal  39:   449.7 KiB     1.5 MiB     1.5 MiB     0          14.0 KiB   112        ok
+normal  40:    16.0 KiB   851.3 KiB     1.3 MiB  -530.0 KiB    16.0 KiB    53        ok
+normal  41:   461.8 KiB     7.9 MiB    13.1 MiB    -5.2 MiB    20.0 KiB   407        ok
+normal  42:   120.4 KiB     1.4 MiB     1.6 MiB  -265.0 KiB    24.0 KiB    60        ok
+normal  43:   899.5 KiB     3.0 MiB     3.0 MiB     0          28.1 KiB   111        ok
+normal  44:   385.5 KiB     1.5 MiB     1.8 MiB  -321.2 KiB    32.1 KiB    49        ok
+normal  45:   963.7 KiB    15.8 MiB    21.0 MiB    -5.1 MiB    40.1 KiB   407        ok
+normal  46:   626.4 KiB     2.7 MiB     2.7 MiB     0          48.1 KiB    59        ok
+normal  47:     1.8 MiB     6.0 MiB     6.0 MiB     0          56.2 KiB   111        ok
+normal  48:   706.7 KiB     3.0 MiB     3.6 MiB  -706.7 KiB    64.2 KiB    48        ok
+normal  49:     1.7 MiB    37.4 MiB    37.4 MiB     0          80.3 KiB   479        ok
+normal  50:     2.2 MiB     6.6 MiB     6.4 MiB   192.7 KiB    96.3 KiB    71        not all freed
+normal  51:     3.6 MiB    12.1 MiB    12.1 MiB     0         112.4 KiB   111        ok
+normal  52:     1.3 MiB     6.0 MiB     6.0 MiB     0         128.5 KiB    48        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    12.3 Mi      1.2 Gi      8.1 Gi     -6.8 Gi    113   B      12.1 M    ok
+     large:   421.1 Mi      1.7 Gi      1.7 Gi     17.8 Mi    976.7 KiB     1.8 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   433.5 MiB     3.0 GiB     9.9 GiB    -6.8 GiB                          ok
+malloc req:    52.2 MiB     2.7 GiB     8.5 GiB    -5.7 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    12.9 GiB     5.8 GiB     7.1 GiB                          
+     reset:    16.2 MiB
+    purged:     1.8 GiB
+   touched:   198.4 MiB     2.3 GiB     2.2 GiB   105.2 MiB                          not all freed
+  segments:    17          34          29           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   891          10.3 Ki      9.6 Ki    662                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   126.2 Ki 
+ -noretire:     2.0 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   229      
+   commits:    35.1 Ki 
+    resets:     1      
+    purges:   882      
+   threads:   221         232          12         220                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    61.371 s
+   process: user: 58.659 s, system: 14.378 s, faults: 0, rss: 782.5 MiB, commit: 7.1 GiB
+Rebuild count: 9
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:   995.3 KiB    10.8 MiB    28.7 MiB   -17.8 MiB     8   B       1.4 M    ok
+normal   4:   178.9 KiB   116.0 MiB   202.9 MiB   -86.9 MiB    32   B       3.8 M    ok
+normal   6:   380.2 KiB    71.3 MiB   264.8 MiB  -193.5 MiB    48   B       1.5 M    ok
+normal   8:     1.2 MiB    63.2 MiB   114.6 MiB   -51.4 MiB    64   B       1.0 M    ok
+normal   9:     2.4 MiB   116.3 MiB   235.7 MiB  -119.4 MiB    80   B       1.5 M    ok
+normal  10:    11.0 MiB    45.0 MiB   122.1 MiB   -77.1 MiB    96   B     491.9 K    ok
+normal  11:     4.8 KiB     1.3 MiB   134.7 MiB  -133.4 MiB   112   B      12.8 K    ok
+normal  12:     1.8 KiB     1.2 MiB   114.2 MiB  -113.0 MiB   128   B      10.3 K    ok
+normal  13:     3.4 MiB   122.1 MiB   282.3 MiB  -160.1 MiB   160   B     800.5 K    ok
+normal  14:    64.9 KiB    75.9 MiB   187.9 MiB  -111.9 MiB   192   B     414.8 K    ok
+normal  15:    23.0 KiB    30.5 MiB    56.2 MiB   -25.6 MiB   224   B     143.1 K    ok
+normal  16:    57.9 KiB    32.7 MiB    62.0 MiB   -29.3 MiB   256   B     134.2 K    ok
+normal  17:     1.9 MiB   136.9 MiB   399.9 MiB  -263.0 MiB   320   B     448.7 K    ok
+normal  18:     3.9 MiB   152.2 MiB   323.0 MiB  -170.7 MiB   384   B     415.8 K    ok
+normal  19:   218.3 MiB   229.4 MiB    11.1 MiB   218.2 MiB   448   B     537.0 K    not all freed
+normal  20:    23.5 KiB    64.1 MiB   254.6 MiB  -190.5 MiB   512   B     131.2 K    ok
+normal  21:    13.8 KiB    82.4 MiB   482.3 MiB  -399.8 MiB   640   B     135.1 K    ok
+normal  22:     1.7 MiB     2.9 MiB     2.1 MiB   802.6 KiB   768   B       3.9 K    not all freed
+normal  23:    44.8 KiB    12.5 MiB    15.2 MiB    -2.7 MiB   896   B      14.6 K    ok
+normal  24:    26.1 KiB     1.0 MiB     2.3 MiB    -1.2 MiB     1.0 KiB     1.0 K    ok
+normal  25:    21.3 KiB   704.0 KiB   779.2 MiB  -778.5 MiB     1.2 KiB   561        ok
+normal  26:   176.1 KiB   302.6 KiB   397.5 KiB   -94.8 KiB     1.5 KiB   201        ok
+normal  27:   170.4 KiB     2.8 MiB     2.8 MiB    -1.7 KiB     1.7 KiB     1.6 K    ok
+normal  28:    28.1 KiB   383.4 KiB   379.4 KiB     4.0 KiB     2.0 KiB   191        not all freed
+normal  29:    80.3 KiB     1.2 MiB    12.7 MiB   -11.4 MiB     2.5 KiB   503        ok
+normal  30:     9.0 KiB   240.9 KiB    31.5 MiB   -31.2 MiB     3.0 KiB    80        ok
+normal  31:   119.4 KiB   432.1 KiB   432.1 KiB     0           3.5 KiB   123        ok
+normal  32:   116.4 KiB   297.1 KiB   228.8 KiB    68.2 KiB     4.0 KiB    74        not all freed
+normal  33:    80.3 KiB     2.2 MiB   127.3 MiB  -125.0 MiB     5.0 KiB   470        ok
+normal  34:     6.0 KiB   397.5 KiB     8.1 MiB    -7.8 MiB     6.0 KiB    66        ok
+normal  35:   386.5 KiB     1.0 MiB   948.7 KiB    84.3 KiB     7.0 KiB   147        not all freed
+normal  36:    96.3 KiB   425.6 KiB   425.6 KiB     0           8.0 KiB    53        ok
+normal  37:     1.1 MiB     7.1 MiB     4.8 GiB    -4.7 GiB    10.0 KiB   736        ok
+normal  38:   240.9 KiB     1.0 MiB    10.0 MiB    -8.9 MiB    12.0 KiB    91        ok
+normal  39:   491.9 KiB     1.6 MiB     1.6 MiB     0          14.0 KiB   121        ok
+normal  40:    16.0 KiB   915.5 KiB     1.4 MiB  -578.2 KiB    16.0 KiB    57        ok
+normal  41:   501.9 KiB     8.5 MiB    14.3 MiB    -5.8 MiB    20.0 KiB   440        ok
+normal  42:   120.4 KiB     1.5 MiB     1.8 MiB  -289.1 KiB    24.0 KiB    65        ok
+normal  43:   983.8 KiB     3.2 MiB     3.2 MiB     0          28.1 KiB   120        ok
+normal  44:   417.6 KiB     1.6 MiB     2.0 MiB  -353.3 KiB    32.1 KiB    53        ok
+normal  45:     1.0 MiB    17.1 MiB    22.9 MiB    -5.7 MiB    40.1 KiB   440        ok
+normal  46:   722.8 KiB     3.0 MiB     3.0 MiB     0          48.1 KiB    64        ok
+normal  47:     1.9 MiB     6.5 MiB     6.5 MiB     0          56.2 KiB   120        ok
+normal  48:   771.0 KiB     3.2 MiB     4.0 MiB  -771.0 KiB    64.2 KiB    52        ok
+normal  49:     1.9 MiB    40.4 MiB    40.4 MiB     0          80.3 KiB   518        ok
+normal  50:     2.4 MiB     7.2 MiB     7.0 MiB   192.7 KiB    96.3 KiB    77        not all freed
+normal  51:     3.9 MiB    13.1 MiB    13.1 MiB     0         112.4 KiB   120        ok
+normal  52:     1.5 MiB     6.5 MiB     6.5 MiB     0         128.5 KiB    52        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    13.2 Mi      1.3 Gi      8.8 Gi     -7.5 Gi    113   B      13.1 M    ok
+     large:   453.5 Mi      1.9 Gi      1.8 Gi     13.3 Mi    977.4 KiB     2.0 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   466.7 MiB     3.2 GiB    10.7 GiB    -7.4 GiB                          ok
+malloc req:    56.3 MiB     3.0 GiB     9.2 GiB    -6.2 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    13.5 GiB     6.3 GiB     7.1 GiB                          
+     reset:    16.2 MiB
+    purged:     2.0 GiB
+   touched:   207.0 MiB     2.5 GiB     2.4 GiB   105.4 MiB                          not all freed
+  segments:    18          37          32           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   914          11.1 Ki     10.5 Ki    664                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   137.1 Ki 
+ -noretire:     2.1 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   229      
+   commits:    39.1 Ki 
+    resets:     1      
+    purges:   980      
+   threads:   221         233          13         220                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    67.365 s
+   process: user: 63.542 s, system: 15.464 s, faults: 0, rss: 792.9 MiB, commit: 7.1 GiB
+Rebuild count: 8
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.0 MiB    11.6 MiB    30.9 MiB   -19.3 MiB     8   B       1.5 M    ok
+normal   4:   178.9 KiB   124.4 MiB   218.4 MiB   -93.9 MiB    32   B       4.0 M    ok
+normal   6:   380.2 KiB    76.8 MiB   286.5 MiB  -209.7 MiB    48   B       1.6 M    ok
+normal   8:     1.2 MiB    68.2 MiB   123.8 MiB   -55.6 MiB    64   B       1.1 M    ok
+normal   9:     2.4 MiB   125.1 MiB   254.5 MiB  -129.4 MiB    80   B       1.6 M    ok
+normal  10:    11.9 MiB    48.2 MiB   131.8 MiB   -83.6 MiB    96   B     526.9 K    ok
+normal  11:     4.9 KiB     1.4 MiB   145.4 MiB  -143.9 MiB   112   B      13.8 K    ok
+normal  12:     2.0 KiB     1.2 MiB   123.0 MiB  -121.8 MiB   128   B      10.3 K    ok
+normal  13:     3.4 MiB   131.6 MiB   305.4 MiB  -173.8 MiB   160   B     862.5 K    ok
+normal  14:    64.9 KiB    81.6 MiB   202.7 MiB  -121.1 MiB   192   B     445.9 K    ok
+normal  15:    23.0 KiB    32.9 MiB    60.7 MiB   -27.8 MiB   224   B     154.2 K    ok
+normal  16:    57.9 KiB    35.2 MiB    67.0 MiB   -31.7 MiB   256   B     144.4 K    ok
+normal  17:     1.9 MiB   147.5 MiB   431.9 MiB  -284.4 MiB   320   B     483.3 K    ok
+normal  18:     3.9 MiB   163.9 MiB   349.0 MiB  -185.0 MiB   384   B     447.7 K    ok
+normal  19:   235.1 MiB   247.1 MiB    12.0 MiB   235.0 MiB   448   B     578.3 K    not all freed
+normal  20:    24.0 KiB    68.9 MiB   274.1 MiB  -205.1 MiB   512   B     141.3 K    ok
+normal  21:    14.4 KiB    88.8 MiB   520.4 MiB  -431.5 MiB   640   B     145.5 K    ok
+normal  22:     1.8 MiB     3.0 MiB     2.2 MiB   799.6 KiB   768   B       4.1 K    not all freed
+normal  23:    48.3 KiB    13.4 MiB    16.5 MiB    -3.0 MiB   896   B      15.7 K    ok
+normal  24:    28.1 KiB     1.0 MiB     2.4 MiB    -1.4 MiB     1.0 KiB     1.0 K    ok
+normal  25:    22.5 KiB   751.6 KiB   841.0 MiB  -840.3 MiB     1.2 KiB   599        ok
+normal  26:   176.1 KiB   311.7 KiB   427.6 KiB  -115.9 KiB     1.5 KiB   207        ok
+normal  27:   184.4 KiB     3.0 MiB     3.0 MiB    -3.5 KiB     1.7 KiB     1.7 K    ok
+normal  28:    30.1 KiB   395.5 KiB   391.5 KiB     4.0 KiB     2.0 KiB   197        not all freed
+normal  29:    82.8 KiB     1.3 MiB    13.8 MiB   -12.5 MiB     2.5 KiB   539        ok
+normal  30:     9.0 KiB   256.0 KiB    34.1 MiB   -33.8 MiB     3.0 KiB    85        ok
+normal  31:   130.0 KiB   467.3 KiB   467.3 KiB     0           3.5 KiB   133        ok
+normal  32:   124.4 KiB   317.2 KiB   244.9 KiB    72.2 KiB     4.0 KiB    79        not all freed
+normal  33:    85.3 KiB     2.4 MiB   137.6 MiB  -135.1 MiB     5.0 KiB   505        ok
+normal  34:     6.0 KiB   421.6 KiB     8.8 MiB    -8.4 MiB     6.0 KiB    70        ok
+normal  35:   414.6 KiB     1.0 MiB  1026.0 KiB    84.3 KiB     7.0 KiB   158        not all freed
+normal  36:   104.4 KiB   457.7 KiB   457.7 KiB     0           8.0 KiB    57        ok
+normal  37:     1.2 MiB     7.7 MiB     5.1 GiB    -5.1 GiB    10.0 KiB   790        ok
+normal  38:   252.9 KiB     1.1 MiB    10.8 MiB    -9.7 MiB    12.0 KiB    97        ok
+normal  39:   534.0 KiB     1.7 MiB     1.7 MiB     0          14.0 KiB   131        ok
+normal  40:    16.0 KiB   979.8 KiB     1.5 MiB  -626.4 KiB    16.0 KiB    61        ok
+normal  41:   542.1 KiB     9.2 MiB    15.5 MiB    -6.3 MiB    20.0 KiB   473        ok
+normal  42:   120.4 KiB     1.6 MiB     1.9 MiB  -313.2 KiB    24.0 KiB    69        ok
+normal  43:     1.0 MiB     3.5 MiB     3.5 MiB     0          28.1 KiB   130        ok
+normal  44:   449.7 KiB     1.7 MiB     2.1 MiB  -385.5 KiB    32.1 KiB    57        ok
+normal  45:     1.0 MiB    18.4 MiB    24.6 MiB    -6.1 MiB    40.1 KiB   473        ok
+normal  46:   771.0 KiB     3.1 MiB     3.1 MiB     0          48.1 KiB    68        ok
+normal  47:     2.1 MiB     7.1 MiB     7.1 MiB     0          56.2 KiB   130        ok
+normal  48:   835.2 KiB     3.5 MiB     4.3 MiB  -835.2 KiB    64.2 KiB    56        ok
+normal  49:     2.1 MiB    43.5 MiB    43.5 MiB     0          80.3 KiB   557        ok
+normal  50:     2.6 MiB     7.6 MiB     7.5 MiB   192.7 KiB    96.3 KiB    82        not all freed
+normal  51:     4.2 MiB    14.2 MiB    14.2 MiB     0         112.4 KiB   130        ok
+normal  52:     1.6 MiB     7.0 MiB     7.0 MiB     0         128.5 KiB    56        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    14.2 Mi      1.4 Gi      9.5 Gi     -8.1 Gi    113   B      14.1 M    ok
+     large:   485.8 Mi      2.0 Gi      2.0 Gi      8.8 Mi    978.0 KiB     2.2 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   500.0 MiB     3.5 GiB    11.6 GiB    -8.0 GiB                          ok
+malloc req:    60.3 MiB     3.2 GiB    10.0 GiB    -6.7 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    13.9 GiB     6.9 GiB     7.0 GiB                          
+     reset:    16.2 MiB
+    purged:     2.2 GiB
+   touched:   215.4 MiB     2.7 GiB     2.6 GiB   105.4 MiB                          not all freed
+  segments:    19          40          35           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   936          12.0 Ki     11.3 Ki    663                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   147.5 Ki 
+ -noretire:     2.3 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   237      
+   commits:    42.9 Ki 
+    resets:     1      
+    purges:     1.0 Ki 
+   threads:   229         243          14         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    73.387 s
+   process: user: 68.357 s, system: 16.607 s, faults: 0, rss: 793.9 MiB, commit: 7.1 GiB
+Rebuild count: 7
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.1 MiB    12.3 MiB    33.1 MiB   -20.7 MiB     8   B       1.6 M    ok
+normal   4:   178.9 KiB   132.9 MiB   233.9 MiB  -101.0 MiB    32   B       4.3 M    ok
+normal   6:   380.2 KiB    82.4 MiB   308.3 MiB  -225.9 MiB    48   B       1.8 M    ok
+normal   8:     1.2 MiB    73.1 MiB   133.1 MiB   -59.9 MiB    64   B       1.1 M    ok
+normal   9:     2.4 MiB   133.9 MiB   273.3 MiB  -139.4 MiB    80   B       1.7 M    ok
+normal  10:    12.8 MiB    51.4 MiB   141.6 MiB   -90.1 MiB    96   B     561.9 K    ok
+normal  11:     5.0 KiB     1.5 MiB   156.1 MiB  -154.5 MiB   112   B      14.9 K    ok
+normal  12:     2.1 KiB     1.2 MiB   131.8 MiB  -130.6 MiB   128   B      10.4 K    ok
+normal  13:     3.4 MiB   141.0 MiB   328.5 MiB  -187.4 MiB   160   B     924.4 K    ok
+normal  14:    64.9 KiB    87.3 MiB   217.6 MiB  -130.2 MiB   192   B     477.1 K    ok
+normal  15:    23.0 KiB    35.3 MiB    65.2 MiB   -29.9 MiB   224   B     165.3 K    ok
+normal  16:    57.9 KiB    37.7 MiB    71.9 MiB   -34.2 MiB   256   B     154.7 K    ok
+normal  17:     1.9 MiB   158.0 MiB   463.9 MiB  -305.9 MiB   320   B     517.8 K    ok
+normal  18:     3.9 MiB   175.6 MiB   374.9 MiB  -199.3 MiB   384   B     479.6 K    ok
+normal  19:   251.9 MiB   264.8 MiB    12.9 MiB   251.9 MiB   448   B     619.7 K    not all freed
+normal  20:    24.5 KiB    73.8 MiB   293.7 MiB  -219.8 MiB   512   B     151.3 K    ok
+normal  21:    15.0 KiB    95.1 MiB   558.7 MiB  -463.5 MiB   640   B     155.9 K    ok
+normal  22:     1.9 MiB     3.2 MiB     2.4 MiB   796.6 KiB   768   B       4.4 K    not all freed
+normal  23:    51.8 KiB    14.4 MiB    17.7 MiB    -3.3 MiB   896   B      16.8 K    ok
+normal  24:    30.1 KiB     1.0 MiB     2.5 MiB    -1.5 MiB     1.0 KiB     1.0 K    ok
+normal  25:    23.8 KiB   799.3 KiB   902.8 MiB  -902.0 MiB     1.2 KiB   637        ok
+normal  26:   176.1 KiB   320.7 KiB   459.2 KiB  -138.5 KiB     1.5 KiB   213        ok
+normal  27:   196.7 KiB     3.2 MiB     3.2 MiB    -5.2 KiB     1.7 KiB     1.9 K    ok
+normal  28:    32.1 KiB   407.5 KiB   403.5 KiB     4.0 KiB     2.0 KiB   203        not all freed
+normal  29:    85.3 KiB     1.4 MiB    15.2 MiB   -13.8 MiB     2.5 KiB   575        ok
+normal  30:     9.0 KiB   274.0 KiB    36.7 MiB   -36.4 MiB     3.0 KiB    91        ok
+normal  31:   140.5 KiB   498.9 KiB   498.9 KiB     0           3.5 KiB   142        ok
+normal  32:   132.5 KiB   337.3 KiB   261.0 KiB    76.2 KiB     4.0 KiB    84        not all freed
+normal  33:    90.3 KiB     2.6 MiB   148.0 MiB  -145.3 MiB     5.0 KiB   540        ok
+normal  34:     6.0 KiB   451.7 KiB     9.5 MiB    -9.1 MiB     6.0 KiB    75        ok
+normal  35:   442.7 KiB     1.1 MiB     1.0 MiB    84.3 KiB     7.0 KiB   168        not all freed
+normal  36:   112.4 KiB   489.9 KiB   489.9 KiB     0           8.0 KiB    61        ok
+normal  37:     1.3 MiB     8.2 MiB     5.5 GiB    -5.5 GiB    10.0 KiB   844        ok
+normal  38:   277.0 KiB     1.2 MiB    11.7 MiB   -10.4 MiB    12.0 KiB   104        ok
+normal  39:   576.2 KiB     1.9 MiB     1.9 MiB     0          14.0 KiB   140        ok
+normal  40:    16.0 KiB     1.0 MiB     1.6 MiB  -674.6 KiB    16.0 KiB    65        ok
+normal  41:   582.2 KiB     9.8 MiB    16.5 MiB    -6.6 MiB    20.0 KiB   506        ok
+normal  42:   120.4 KiB     1.7 MiB     2.0 MiB  -337.3 KiB    24.0 KiB    74        ok
+normal  43:     1.1 MiB     3.8 MiB     3.8 MiB     0          28.1 KiB   139        ok
+normal  44:   481.8 KiB     1.9 MiB     2.3 MiB  -417.6 KiB    32.1 KiB    61        ok
+normal  45:     1.1 MiB    19.7 MiB    26.1 MiB    -6.4 MiB    40.1 KiB   506        ok
+normal  46:   819.2 KiB     3.4 MiB     3.4 MiB     0          48.1 KiB    73        ok
+normal  47:     2.2 MiB     7.6 MiB     7.6 MiB     0          56.2 KiB   139        ok
+normal  48:   899.5 KiB     3.7 MiB     4.6 MiB  -899.5 KiB    64.2 KiB    60        ok
+normal  49:     2.2 MiB    46.5 MiB    46.5 MiB     0          80.3 KiB   596        ok
+normal  50:     2.8 MiB     8.2 MiB     8.0 MiB   192.7 KiB    96.3 KiB    88        not all freed
+normal  51:     4.5 MiB    15.2 MiB    15.2 MiB     0         112.4 KiB   139        ok
+normal  52:     1.7 MiB     7.5 MiB     7.5 MiB     0         128.5 KiB    60        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    15.1 Mi      1.5 Gi     10.2 Gi     -8.7 Gi    113   B      15.1 M    ok
+     large:   518.2 Mi      2.1 Gi      2.1 Gi      4.2 Mi    978.3 KiB     2.3 K    not all freed
+      huge:     0           0           0           0                                ok
+     total:   533.3 MiB     3.7 GiB    12.4 GiB    -8.7 GiB                          ok
+malloc req:    64.3 MiB     3.4 GiB    10.7 GiB    -7.2 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    14.5 GiB     7.4 GiB     7.0 GiB                          
+     reset:    16.2 MiB
+    purged:     2.4 GiB
+   touched:   224.1 MiB     2.9 GiB     2.8 GiB   105.5 MiB                          not all freed
+  segments:    20          43          38           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   959          12.8 Ki     12.2 Ki    665                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   157.9 Ki 
+ -noretire:     2.4 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    46.4 Ki 
+    resets:     1      
+    purges:     1.1 Ki 
+   threads:   230         244          15         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    79.422 s
+   process: user: 73.161 s, system: 17.816 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+Rebuild count: 6
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.1 MiB    13.1 MiB    35.4 MiB   -22.2 MiB     8   B       1.7 M    ok
+normal   4:   178.9 KiB   141.4 MiB   249.4 MiB  -108.0 MiB    32   B       4.6 M    ok
+normal   6:   380.2 KiB    87.9 MiB   330.0 MiB  -242.0 MiB    48   B       1.9 M    ok
+normal   8:     1.2 MiB    78.1 MiB   142.3 MiB   -64.2 MiB    64   B       1.2 M    ok
+normal   9:     2.4 MiB   142.7 MiB   292.1 MiB  -149.4 MiB    80   B       1.8 M    ok
+normal  10:    13.7 MiB    54.6 MiB   151.3 MiB   -96.6 MiB    96   B     597.0 K    ok
+normal  11:     5.1 KiB     1.7 MiB   166.8 MiB  -165.1 MiB   112   B      15.9 K    ok
+normal  12:     2.2 KiB     1.2 MiB   140.6 MiB  -139.4 MiB   128   B      10.4 K    ok
+normal  13:     3.4 MiB   150.5 MiB   351.6 MiB  -201.0 MiB   160   B     986.4 K    ok
+normal  14:    64.9 KiB    93.0 MiB   232.5 MiB  -139.4 MiB   192   B     508.2 K    ok
+normal  15:    23.0 KiB    37.6 MiB    69.7 MiB   -32.1 MiB   224   B     176.4 K    ok
+normal  16:    57.9 KiB    40.2 MiB    76.9 MiB   -36.6 MiB   256   B     164.9 K    ok
+normal  17:     1.9 MiB   168.6 MiB   495.9 MiB  -327.3 MiB   320   B     552.5 K    ok
+normal  18:     3.9 MiB   187.3 MiB   400.9 MiB  -213.5 MiB   384   B     511.5 K    ok
+normal  19:   268.7 MiB   282.4 MiB    13.7 MiB   268.6 MiB   448   B     661.0 K    not all freed
+normal  20:    25.0 KiB    78.7 MiB   313.2 MiB  -234.5 MiB   512   B     161.3 K    ok
+normal  21:    15.6 KiB   101.5 MiB   596.8 MiB  -495.3 MiB   640   B     166.3 K    ok
+normal  22:     2.0 MiB     3.4 MiB     2.6 MiB   793.6 KiB   768   B       4.6 K    not all freed
+normal  23:    55.3 KiB    15.3 MiB    18.9 MiB    -3.5 MiB   896   B      18.0 K    ok
+normal  24:    32.1 KiB     1.0 MiB     2.7 MiB    -1.6 MiB     1.0 KiB     1.1 K    ok
+normal  25:    25.0 KiB   847.0 KiB   964.7 MiB  -963.8 MiB     1.2 KiB   675        ok
+normal  26:   176.1 KiB   329.7 KiB   490.9 KiB  -161.1 KiB     1.5 KiB   219        ok
+normal  27:   209.0 KiB     3.4 MiB     3.4 MiB    -7.0 KiB     1.7 KiB     2.0 K    ok
+normal  28:    34.1 KiB   419.6 KiB   415.6 KiB     4.0 KiB     2.0 KiB   209        not all freed
+normal  29:    87.8 KiB     1.4 MiB    16.2 MiB   -14.7 MiB     2.5 KiB   611        ok
+normal  30:     9.0 KiB   292.1 KiB    39.3 MiB   -39.0 MiB     3.0 KiB    97        ok
+normal  31:   147.5 KiB   530.5 KiB   530.5 KiB     0           3.5 KiB   151        ok
+normal  32:   140.5 KiB   357.3 KiB   277.0 KiB    80.3 KiB     4.0 KiB    89        not all freed
+normal  33:    95.3 KiB     2.8 MiB   158.5 MiB  -155.7 MiB     5.0 KiB   575        ok
+normal  34:     6.0 KiB   481.8 KiB    10.2 MiB    -9.7 MiB     6.0 KiB    80        ok
+normal  35:   470.8 KiB     1.2 MiB     1.1 MiB    84.3 KiB     7.0 KiB   178        not all freed
+normal  36:   120.4 KiB   522.0 KiB   522.0 KiB     0           8.0 KiB    65        ok
+normal  37:     1.4 MiB     8.7 MiB     5.9 GiB    -5.9 GiB    10.0 KiB   898        ok
+normal  38:   301.1 KiB     1.3 MiB    12.5 MiB   -11.2 MiB    12.0 KiB   111        ok
+normal  39:   618.4 KiB     2.0 MiB     2.0 MiB     0          14.0 KiB   149        ok
+normal  40:    16.0 KiB     1.0 MiB     1.7 MiB  -722.8 KiB    16.0 KiB    69        ok
+normal  41:   622.4 KiB    10.5 MiB    17.7 MiB    -7.2 MiB    20.0 KiB   539        ok
+normal  42:   120.4 KiB     1.8 MiB     2.2 MiB  -361.4 KiB    24.0 KiB    79        ok
+normal  43:     1.2 MiB     4.0 MiB     4.0 MiB     0          28.1 KiB   148        ok
+normal  44:   514.0 KiB     2.0 MiB     2.4 MiB  -449.7 KiB    32.1 KiB    65        ok
+normal  45:     1.2 MiB    21.0 MiB    27.9 MiB    -6.8 MiB    40.1 KiB   539        ok
+normal  46:   915.5 KiB     3.6 MiB     3.6 MiB     0          48.1 KiB    78        ok
+normal  47:     2.4 MiB     8.0 MiB     8.0 MiB     0          56.2 KiB   148        ok
+normal  48:   963.7 KiB     4.0 MiB     4.9 MiB  -963.7 KiB    64.2 KiB    64        ok
+normal  49:     2.4 MiB    49.6 MiB    49.6 MiB     0          80.3 KiB   635        ok
+normal  50:     3.0 MiB     8.8 MiB     8.6 MiB   192.7 KiB    96.3 KiB    94        not all freed
+normal  51:     4.9 MiB    16.1 MiB    16.1 MiB     0         112.4 KiB   148        ok
+normal  52:     1.8 MiB     8.0 MiB     8.0 MiB     0         128.5 KiB    64        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    16.0 Mi      1.6 Gi     11.0 Gi     -9.3 Gi    113   B      16.1 M    ok
+     large:   550.5 Mi      2.3 Gi      2.3 Gi   -256.4 Ki    978.7 KiB     2.5 K    ok
+      huge:     0           0           0           0                                ok
+     total:   566.6 MiB     4.0 GiB    13.3 GiB    -9.3 GiB                          ok
+malloc req:    68.3 MiB     3.7 GiB    11.4 GiB    -7.7 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    15.0 GiB     8.0 GiB     6.9 GiB                          
+     reset:    16.2 MiB
+    purged:     2.6 GiB
+   touched:   232.4 MiB     3.1 GiB     3.0 GiB   105.4 MiB                          not all freed
+  segments:    21          45          41           4                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:   978          13.6 Ki     13.0 Ki    663                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   167.9 Ki 
+ -noretire:     2.6 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    50.9 Ki 
+    resets:     1      
+    purges:     1.2 Ki 
+   threads:   230         245          16         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    85.548 s
+   process: user: 78.450 s, system: 18.896 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+Rebuild count: 5
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.2 MiB    13.9 MiB    37.6 MiB   -23.6 MiB     8   B       1.8 M    ok
+normal   4:   178.9 KiB   149.9 MiB   264.9 MiB  -115.0 MiB    32   B       4.9 M    ok
+normal   6:   380.2 KiB    93.5 MiB   351.7 MiB  -258.2 MiB    48   B       2.0 M    ok
+normal   8:     1.2 MiB    83.0 MiB   151.6 MiB   -68.5 MiB    64   B       1.3 M    ok
+normal   9:     2.4 MiB   151.4 MiB   310.9 MiB  -159.5 MiB    80   B       1.9 M    ok
+normal  10:    14.6 MiB    57.8 MiB   161.0 MiB  -103.1 MiB    96   B     632.0 K    ok
+normal  11:     5.2 KiB     1.8 MiB   177.5 MiB  -175.7 MiB   112   B      17.0 K    ok
+normal  12:     2.3 KiB     1.2 MiB   149.5 MiB  -148.2 MiB   128   B      10.4 K    ok
+normal  13:     3.4 MiB   159.9 MiB   374.6 MiB  -214.7 MiB   160   B       1.0 M    ok
+normal  14:    64.9 KiB    98.7 MiB   247.3 MiB  -148.6 MiB   192   B     539.4 K    ok
+normal  15:    23.0 KiB    40.0 MiB    74.3 MiB   -34.2 MiB   224   B     187.5 K    ok
+normal  16:    57.9 KiB    42.7 MiB    81.8 MiB   -39.0 MiB   256   B     175.2 K    ok
+normal  17:     1.9 MiB   179.2 MiB   527.9 MiB  -348.7 MiB   320   B     587.2 K    ok
+normal  18:     3.9 MiB   199.0 MiB   426.9 MiB  -227.8 MiB   384   B     543.5 K    ok
+normal  19:   285.4 MiB   300.0 MiB    14.6 MiB   285.4 MiB   448   B     702.3 K    not all freed
+normal  20:    25.6 KiB    83.6 MiB   332.8 MiB  -249.1 MiB   512   B     171.3 K    ok
+normal  21:    16.3 KiB   107.8 MiB   634.6 MiB  -526.8 MiB   640   B     176.7 K    ok
+normal  22:     2.0 MiB     3.5 MiB     2.7 MiB   790.5 KiB   768   B       4.8 K    not all freed
+normal  23:    58.8 KiB    16.3 MiB    20.2 MiB    -3.8 MiB   896   B      19.1 K    ok
+normal  24:    34.1 KiB     1.0 MiB     2.8 MiB    -1.7 MiB     1.0 KiB     1.1 K    ok
+normal  25:    26.3 KiB   894.7 KiB     1.0 GiB    -1.0 GiB     1.2 KiB   713        ok
+normal  26:   176.1 KiB   338.8 KiB   522.5 KiB  -183.7 KiB     1.5 KiB   225        ok
+normal  27:   221.3 KiB     3.6 MiB     3.6 MiB    -8.7 KiB     1.7 KiB     2.1 K    ok
+normal  28:    36.1 KiB   431.6 KiB   427.6 KiB     4.0 KiB     2.0 KiB   215        not all freed
+normal  29:    90.3 KiB     1.5 MiB    17.2 MiB   -15.6 MiB     2.5 KiB   647        ok
+normal  30:     9.0 KiB   310.2 KiB    42.0 MiB   -41.7 MiB     3.0 KiB   103        ok
+normal  31:   158.1 KiB   562.1 KiB   562.1 KiB     0           3.5 KiB   160        ok
+normal  32:   148.5 KiB   377.4 KiB   293.1 KiB    84.3 KiB     4.0 KiB    94        not all freed
+normal  33:   100.3 KiB     2.9 MiB   169.1 MiB  -166.1 MiB     5.0 KiB   610        ok
+normal  34:     6.0 KiB   512.0 KiB    10.9 MiB   -10.4 MiB     6.0 KiB    85        ok
+normal  35:   491.9 KiB     1.2 MiB     1.2 MiB    84.3 KiB     7.0 KiB   188        not all freed
+normal  36:   128.5 KiB   554.1 KiB   554.1 KiB     0           8.0 KiB    69        ok
+normal  37:     1.5 MiB     9.2 MiB     6.3 GiB    -6.3 GiB    10.0 KiB   952        ok
+normal  38:   325.2 KiB     1.3 MiB    13.3 MiB   -11.9 MiB    12.0 KiB   118        ok
+normal  39:   660.5 KiB     2.1 MiB     2.1 MiB     0          14.0 KiB   158        ok
+normal  40:    16.0 KiB     1.1 MiB     1.8 MiB  -771.0 KiB    16.0 KiB    73        ok
+normal  41:   662.5 KiB    11.1 MiB    18.9 MiB    -7.8 MiB    20.0 KiB   572        ok
+normal  42:   120.4 KiB     1.9 MiB     2.3 MiB  -385.5 KiB    24.0 KiB    84        ok
+normal  43:     1.2 MiB     4.2 MiB     4.2 MiB     0          28.1 KiB   157        ok
+normal  44:   546.1 KiB     2.1 MiB     2.6 MiB  -481.8 KiB    32.1 KiB    69        ok
+normal  45:     1.3 MiB    22.3 MiB    29.8 MiB    -7.5 MiB    40.1 KiB   572        ok
+normal  46:   963.7 KiB     3.8 MiB     3.8 MiB     0          48.1 KiB    83        ok
+normal  47:     2.6 MiB     8.5 MiB     8.5 MiB     0          56.2 KiB   157        ok
+normal  48:     1.0 MiB     4.2 MiB     5.2 MiB    -1.0 MiB    64.2 KiB    68        ok
+normal  49:     2.5 MiB    52.6 MiB    52.6 MiB     0          80.3 KiB   674        ok
+normal  50:     3.1 MiB     9.3 MiB     9.1 MiB   192.7 KiB    96.3 KiB   100        not all freed
+normal  51:     5.2 MiB    17.1 MiB    17.1 MiB     0         112.4 KiB   157        ok
+normal  52:     2.0 MiB     8.5 MiB     8.5 MiB     0         128.5 KiB    68        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    16.9 Mi      1.8 Gi     11.7 Gi     -9.9 Gi    114   B      16.9 M    ok
+     large:   582.9 Mi      2.4 Gi      2.4 Gi     -4.7 Mi    979.2 KiB     2.6 K    ok
+      huge:     0           0           0           0                                ok
+     total:   599.9 MiB     4.2 GiB    14.2 GiB    -9.9 GiB                          ok
+malloc req:    72.4 MiB     3.9 GiB    12.2 GiB    -8.2 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    15.5 GiB     8.6 GiB     6.9 GiB                          
+     reset:    16.2 MiB
+    purged:     2.7 GiB
+   touched:   241.1 MiB     3.3 GiB     3.2 GiB   105.7 MiB                          not all freed
+  segments:    23          47          42           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:  1004          14.5 Ki     13.8 Ki    666                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   178.7 Ki 
+ -noretire:     2.7 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    54.3 Ki 
+    resets:     1      
+    purges:     1.3 Ki 
+   threads:   230         246          17         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    91.621 s
+   process: user: 83.389 s, system: 20.109 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+Rebuild count: 4
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.3 MiB    14.6 MiB    39.8 MiB   -25.1 MiB     8   B       1.9 M    ok
+normal   4:   178.9 KiB   158.3 MiB   280.4 MiB  -122.1 MiB    32   B       5.1 M    ok
+normal   6:   380.2 KiB    99.0 MiB   373.5 MiB  -274.4 MiB    48   B       2.1 M    ok
+normal   8:     1.2 MiB    88.0 MiB   160.8 MiB   -72.8 MiB    64   B       1.4 M    ok
+normal   9:     2.4 MiB   160.2 MiB   329.8 MiB  -169.5 MiB    80   B       2.1 M    ok
+normal  10:    15.5 MiB    61.0 MiB   170.7 MiB  -109.6 MiB    96   B     667.0 K    ok
+normal  11:     5.3 KiB     1.9 MiB   188.2 MiB  -186.3 MiB   112   B      18.0 K    ok
+normal  12:     2.5 KiB     1.2 MiB   158.3 MiB  -157.0 MiB   128   B      10.5 K    ok
+normal  13:     3.4 MiB   169.4 MiB   397.7 MiB  -228.3 MiB   160   B       1.1 M    ok
+normal  14:    64.9 KiB   104.4 MiB   262.2 MiB  -157.7 MiB   192   B     570.5 K    ok
+normal  15:    23.0 KiB    42.4 MiB    78.8 MiB   -36.3 MiB   224   B     198.5 K    ok
+normal  16:    57.9 KiB    45.2 MiB    86.8 MiB   -41.5 MiB   256   B     185.4 K    ok
+normal  17:     1.9 MiB   189.7 MiB   559.9 MiB  -370.2 MiB   320   B     621.7 K    ok
+normal  18:     3.9 MiB   210.7 MiB   452.8 MiB  -242.1 MiB   384   B     575.4 K    ok
+normal  19:   302.2 MiB   317.7 MiB    15.4 MiB   302.2 MiB   448   B     743.7 K    not all freed
+normal  20:    26.1 KiB    88.5 MiB   352.3 MiB  -263.8 MiB   512   B     181.3 K    ok
+normal  21:    16.9 KiB   114.2 MiB   672.5 MiB  -558.3 MiB   640   B     187.1 K    ok
+normal  22:     2.1 MiB     3.7 MiB     2.9 MiB   787.5 KiB   768   B       5.0 K    not all freed
+normal  23:    62.3 KiB    17.3 MiB    21.5 MiB    -4.2 MiB   896   B      20.2 K    ok
+normal  24:    36.1 KiB     1.0 MiB     2.9 MiB    -1.8 MiB     1.0 KiB     1.1 K    ok
+normal  25:    27.6 KiB   942.4 KiB     1.0 GiB    -1.0 GiB     1.2 KiB   751        ok
+normal  26:   176.1 KiB   347.8 KiB   554.1 KiB  -206.3 KiB     1.5 KiB   231        ok
+normal  27:   233.6 KiB     3.9 MiB     3.9 MiB   -10.5 KiB     1.7 KiB     2.2 K    ok
+normal  28:    38.1 KiB   443.7 KiB   439.7 KiB     4.0 KiB     2.0 KiB   221        not all freed
+normal  29:    92.8 KiB     1.6 MiB    18.4 MiB   -16.7 MiB     2.5 KiB   682        ok
+normal  30:    12.0 KiB   331.2 KiB    44.6 MiB   -44.3 MiB     3.0 KiB   110        ok
+normal  31:   168.6 KiB   593.8 KiB   593.8 KiB     0           3.5 KiB   169        ok
+normal  32:   156.6 KiB   397.5 KiB   309.2 KiB    88.3 KiB     4.0 KiB    99        not all freed
+normal  33:   105.4 KiB     3.1 MiB   179.6 MiB  -176.5 MiB     5.0 KiB   644        ok
+normal  34:    12.0 KiB   548.1 KiB    11.5 MiB   -11.0 MiB     6.0 KiB    91        ok
+normal  35:   520.0 KiB     1.3 MiB     1.2 MiB    84.3 KiB     7.0 KiB   198        not all freed
+normal  36:   136.5 KiB   586.2 KiB   586.2 KiB     0           8.0 KiB    73        ok
+normal  37:     1.5 MiB     9.8 MiB     6.7 GiB    -6.7 GiB    10.0 KiB     1.0 K    ok
+normal  38:   349.3 KiB     1.4 MiB    14.2 MiB   -12.7 MiB    12.0 KiB   125        ok
+normal  39:   688.6 KiB     2.2 MiB     2.2 MiB     0          14.0 KiB   167        ok
+normal  40:    16.0 KiB     1.2 MiB     2.0 MiB  -819.2 KiB    16.0 KiB    77        ok
+normal  41:   702.7 KiB    11.8 MiB    19.9 MiB    -8.1 MiB    20.0 KiB   605        ok
+normal  42:   144.5 KiB     2.0 MiB     2.4 MiB  -409.6 KiB    24.0 KiB    89        ok
+normal  43:     1.3 MiB     4.5 MiB     4.5 MiB     0          28.1 KiB   166        ok
+normal  44:   578.2 KiB     2.2 MiB     2.7 MiB  -514.0 KiB    32.1 KiB    73        ok
+normal  45:     1.4 MiB    23.6 MiB    31.3 MiB    -7.7 MiB    40.1 KiB   605        ok
+normal  46:     1.0 MiB     4.1 MiB     4.1 MiB     0          48.1 KiB    88        ok
+normal  47:     2.7 MiB     9.0 MiB     9.0 MiB     0          56.2 KiB   166        ok
+normal  48:     1.0 MiB     4.5 MiB     5.5 MiB    -1.0 MiB    64.2 KiB    72        ok
+normal  49:     2.7 MiB    55.7 MiB    55.7 MiB     0          80.3 KiB   713        ok
+normal  50:     3.3 MiB     9.9 MiB     9.7 MiB   192.7 KiB    96.3 KiB   106        not all freed
+normal  51:     5.5 MiB    18.1 MiB    18.1 MiB     0         112.4 KiB   166        ok
+normal  52:     2.1 MiB     9.0 MiB     9.0 MiB     0         128.5 KiB    72        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    17.8 Mi      1.9 Gi     12.4 Gi    -10.5 Gi    114   B      17.9 M    ok
+     large:   615.2 Mi      2.6 Gi      2.6 Gi     -9.3 Mi    979.5 KiB     2.8 K    ok
+      huge:     0           0           0           0                                ok
+     total:   633.1 MiB     4.5 GiB    15.0 GiB   -10.5 GiB                          ok
+malloc req:    76.4 MiB     4.1 GiB    12.9 GiB    -8.7 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    16.3 GiB     9.2 GiB     7.0 GiB                          
+     reset:    16.2 MiB
+    purged:     2.9 GiB
+   touched:   249.3 MiB     3.5 GiB     3.4 GiB   105.4 MiB                          not all freed
+  segments:    24          50          45           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     1.0 Ki     15.3 Ki     14.7 Ki    664                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   189.3 Ki 
+ -noretire:     2.9 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    58.6 Ki 
+    resets:     1      
+    purges:     1.4 Ki 
+   threads:   230         247          18         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:    97.690 s
+   process: user: 88.310 s, system: 21.251 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+Rebuild count: 3
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.4 MiB    15.4 MiB    42.0 MiB   -26.6 MiB     8   B       2.0 M    ok
+normal   4:   178.9 KiB   166.8 MiB   295.9 MiB  -129.1 MiB    32   B       5.4 M    ok
+normal   6:   380.2 KiB   104.6 MiB   395.2 MiB  -290.6 MiB    48   B       2.2 M    ok
+normal   8:     1.2 MiB    92.9 MiB   170.0 MiB   -77.1 MiB    64   B       1.5 M    ok
+normal   9:     2.4 MiB   169.0 MiB   348.6 MiB  -179.5 MiB    80   B       2.2 M    ok
+normal  10:    16.5 MiB    64.2 MiB   180.4 MiB  -116.1 MiB    96   B     702.1 K    ok
+normal  11:     5.4 KiB     2.0 MiB   198.9 MiB  -196.9 MiB   112   B      19.1 K    ok
+normal  12:     2.6 KiB     1.2 MiB   167.1 MiB  -165.8 MiB   128   B      10.5 K    ok
+normal  13:     3.4 MiB   178.8 MiB   420.8 MiB  -241.9 MiB   160   B       1.1 M    ok
+normal  14:    64.9 KiB   110.1 MiB   277.1 MiB  -166.9 MiB   192   B     601.7 K    ok
+normal  15:    23.0 KiB    44.7 MiB    83.3 MiB   -38.5 MiB   224   B     209.6 K    ok
+normal  16:    57.9 KiB    47.7 MiB    91.7 MiB   -43.9 MiB   256   B     195.7 K    ok
+normal  17:     1.9 MiB   200.3 MiB   591.9 MiB  -391.6 MiB   320   B     656.3 K    ok
+normal  18:     3.9 MiB   222.4 MiB   478.8 MiB  -256.4 MiB   384   B     607.3 K    ok
+normal  19:   319.1 MiB   335.4 MiB    16.3 MiB   319.0 MiB   448   B     785.0 K    not all freed
+normal  20:    26.6 KiB    93.4 MiB   371.9 MiB  -278.4 MiB   512   B     191.3 K    ok
+normal  21:    17.5 KiB   120.5 MiB   710.6 MiB  -590.0 MiB   640   B     197.5 K    ok
+normal  22:     2.2 MiB     3.8 MiB     3.1 MiB   784.5 KiB   768   B       5.3 K    not all freed
+normal  23:    65.8 KiB    18.2 MiB    22.7 MiB    -4.4 MiB   896   B      21.3 K    ok
+normal  24:    38.1 KiB     1.0 MiB     3.0 MiB    -1.9 MiB     1.0 KiB     1.1 K    ok
+normal  25:    28.8 KiB   990.1 KiB     1.1 GiB    -1.1 GiB     1.2 KiB   789        ok
+normal  26:   176.1 KiB   356.8 KiB   585.7 KiB  -228.8 KiB     1.5 KiB   237        ok
+normal  27:   245.9 KiB     4.1 MiB     4.1 MiB   -12.2 KiB     1.7 KiB     2.4 K    ok
+normal  28:    40.1 KiB   455.7 KiB   451.7 KiB     4.0 KiB     2.0 KiB   227        not all freed
+normal  29:    95.3 KiB     1.7 MiB    19.4 MiB   -17.6 MiB     2.5 KiB   717        ok
+normal  30:    15.0 KiB   352.3 KiB    47.2 MiB   -46.9 MiB     3.0 KiB   117        ok
+normal  31:   175.6 KiB   625.4 KiB   625.4 KiB     0           3.5 KiB   178        ok
+normal  32:   164.6 KiB   417.6 KiB   325.2 KiB    92.3 KiB     4.0 KiB   104        not all freed
+normal  33:   110.4 KiB     3.3 MiB   190.1 MiB  -186.8 MiB     5.0 KiB   678        ok
+normal  34:    18.0 KiB   584.2 KiB    12.2 MiB   -11.7 MiB     6.0 KiB    97        ok
+normal  35:   548.1 KiB     1.4 MiB     1.3 MiB    84.3 KiB     7.0 KiB   208        not all freed
+normal  36:   144.5 KiB   618.4 KiB   618.4 KiB     0           8.0 KiB    77        ok
+normal  37:     1.6 MiB    10.3 MiB     7.1 GiB    -7.0 GiB    10.0 KiB     1.0 K    ok
+normal  38:   373.4 KiB     1.5 MiB    15.0 MiB   -13.4 MiB    12.0 KiB   132        ok
+normal  39:   730.8 KiB     2.4 MiB     2.4 MiB     0          14.0 KiB   176        ok
+normal  40:    16.0 KiB     1.2 MiB     2.1 MiB  -867.3 KiB    16.0 KiB    81        ok
+normal  41:   742.9 KiB    12.4 MiB    21.0 MiB    -8.6 MiB    20.0 KiB   638        ok
+normal  42:   168.6 KiB     2.2 MiB     2.6 MiB  -433.6 KiB    24.0 KiB    94        ok
+normal  43:     1.4 MiB     4.7 MiB     4.7 MiB     0          28.1 KiB   175        ok
+normal  44:   610.3 KiB     2.4 MiB     2.9 MiB  -546.1 KiB    32.1 KiB    77        ok
+normal  45:     1.4 MiB    24.9 MiB    33.0 MiB    -8.1 MiB    40.1 KiB   638        ok
+normal  46:     1.0 MiB     4.3 MiB     4.3 MiB     0          48.1 KiB    93        ok
+normal  47:     2.9 MiB     9.5 MiB     9.5 MiB     0          56.2 KiB   175        ok
+normal  48:     1.1 MiB     4.7 MiB     5.8 MiB    -1.1 MiB    64.2 KiB    76        ok
+normal  49:     2.8 MiB    58.7 MiB    58.7 MiB     0          80.3 KiB   752        ok
+normal  50:     3.5 MiB    10.5 MiB    10.3 MiB   192.7 KiB    96.3 KiB   112        not all freed
+normal  51:     5.9 MiB    19.1 MiB    19.1 MiB     0         112.4 KiB   175        ok
+normal  52:     2.2 MiB     9.5 MiB     9.5 MiB     0         128.5 KiB    76        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    18.7 Mi      2.0 Gi     13.1 Gi    -11.1 Gi    114   B      18.9 M    ok
+     large:   647.6 Mi      2.7 Gi      2.7 Gi    -13.8 Mi    979.9 KiB     2.9 K    ok
+      huge:     0           0           0           0                                ok
+     total:   666.4 MiB     4.7 GiB    15.9 GiB   -11.1 GiB                          ok
+malloc req:    80.4 MiB     4.4 GiB    13.6 GiB    -9.2 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    16.9 GiB     9.8 GiB     7.1 GiB                          
+     reset:    16.2 MiB
+    purged:     3.1 GiB
+   touched:   257.9 MiB     3.7 GiB     3.6 GiB   105.5 MiB                          not all freed
+  segments:    25          53          48           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     1.0 Ki     16.2 Ki     15.5 Ki    665                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   199.6 Ki 
+ -noretire:     3.0 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    61.7 Ki 
+    resets:     1      
+    purges:     1.5 Ki 
+   threads:   230         248          19         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:   103.660 s
+   process: user: 93.203 s, system: 22.461 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+Rebuild count: 2
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.5 MiB    16.2 MiB    44.2 MiB   -28.0 MiB     8   B       2.1 M    ok
+normal   4:   178.9 KiB   175.3 MiB   311.4 MiB  -136.1 MiB    32   B       5.7 M    ok
+normal   6:   380.2 KiB   110.1 MiB   417.0 MiB  -306.8 MiB    48   B       2.4 M    ok
+normal   8:     1.2 MiB    97.9 MiB   179.3 MiB   -81.3 MiB    64   B       1.6 M    ok
+normal   9:     2.4 MiB   177.8 MiB   367.4 MiB  -189.5 MiB    80   B       2.3 M    ok
+normal  10:    17.4 MiB    67.4 MiB   190.1 MiB  -122.6 MiB    96   B     737.1 K    ok
+normal  11:     5.6 KiB     2.1 MiB   209.6 MiB  -207.4 MiB   112   B      20.1 K    ok
+normal  12:     2.7 KiB     1.2 MiB   175.9 MiB  -174.6 MiB   128   B      10.5 K    ok
+normal  13:     3.4 MiB   188.3 MiB   443.9 MiB  -255.6 MiB   160   B       1.2 M    ok
+normal  14:    64.9 KiB   115.8 MiB   291.9 MiB  -176.1 MiB   192   B     632.8 K    ok
+normal  15:    23.0 KiB    47.1 MiB    87.8 MiB   -40.6 MiB   224   B     220.7 K    ok
+normal  16:    57.9 KiB    50.2 MiB    96.7 MiB   -46.4 MiB   256   B     205.9 K    ok
+normal  17:     1.9 MiB   210.8 MiB   623.9 MiB  -413.1 MiB   320   B     690.9 K    ok
+normal  18:     3.9 MiB   234.0 MiB   504.8 MiB  -270.7 MiB   384   B     639.2 K    ok
+normal  19:   335.9 MiB   353.0 MiB    17.2 MiB   335.8 MiB   448   B     826.4 K    not all freed
+normal  20:    27.1 KiB    98.3 MiB   391.4 MiB  -293.1 MiB   512   B     201.4 K    ok
+normal  21:    18.1 KiB   126.9 MiB   749.2 MiB  -622.3 MiB   640   B     207.9 K    ok
+normal  22:     2.3 MiB     4.0 MiB     3.3 MiB   781.5 KiB   768   B       5.5 K    not all freed
+normal  23:    69.3 KiB    19.2 MiB    23.9 MiB    -4.7 MiB   896   B      22.5 K    ok
+normal  24:    40.1 KiB     1.1 MiB     3.1 MiB    -2.0 MiB     1.0 KiB     1.1 K    ok
+normal  25:    30.1 KiB     1.0 MiB     1.1 GiB    -1.1 GiB     1.2 KiB   827        ok
+normal  26:   176.1 KiB   365.9 KiB   617.4 KiB  -251.4 KiB     1.5 KiB   243        ok
+normal  27:   258.2 KiB     4.3 MiB     4.3 MiB   -14.0 KiB     1.7 KiB     2.5 K    ok
+normal  28:    42.1 KiB   467.8 KiB   463.8 KiB     4.0 KiB     2.0 KiB   233        not all freed
+normal  29:    97.8 KiB     1.8 MiB    20.3 MiB   -18.5 MiB     2.5 KiB   752        ok
+normal  30:    18.0 KiB   373.4 KiB    49.8 MiB   -49.5 MiB     3.0 KiB   124        ok
+normal  31:   186.2 KiB   657.0 KiB   657.0 KiB     0           3.5 KiB   187        ok
+normal  32:   172.6 KiB   437.7 KiB   341.3 KiB    96.3 KiB     4.0 KiB   109        not all freed
+normal  33:   115.4 KiB     3.4 MiB   200.4 MiB  -196.9 MiB     5.0 KiB   712        ok
+normal  34:    24.0 KiB   620.4 KiB    12.9 MiB   -12.3 MiB     6.0 KiB   103        ok
+normal  35:   576.2 KiB     1.4 MiB     1.4 MiB    84.3 KiB     7.0 KiB   218        not all freed
+normal  36:   152.5 KiB   650.5 KiB   650.5 KiB     0           8.0 KiB    81        ok
+normal  37:     1.7 MiB    10.8 MiB     7.4 GiB    -7.4 GiB    10.0 KiB     1.1 K    ok
+normal  38:   397.5 KiB     1.6 MiB    15.8 MiB   -14.2 MiB    12.0 KiB   139        ok
+normal  39:   758.9 KiB     2.5 MiB     2.5 MiB     0          14.0 KiB   185        ok
+normal  40:    16.0 KiB     1.3 MiB     2.2 MiB  -915.5 KiB    16.0 KiB    85        ok
+normal  41:   783.0 KiB    13.1 MiB    22.1 MiB    -9.0 MiB    20.0 KiB   671        ok
+normal  42:   168.6 KiB     2.3 MiB     2.7 MiB  -457.7 KiB    24.0 KiB    99        ok
+normal  43:     1.5 MiB     5.0 MiB     5.0 MiB     0          28.1 KiB   184        ok
+normal  44:   642.5 KiB     2.5 MiB     3.0 MiB  -578.2 KiB    32.1 KiB    81        ok
+normal  45:     1.5 MiB    26.2 MiB    34.6 MiB    -8.4 MiB    40.1 KiB   671        ok
+normal  46:     1.1 MiB     4.5 MiB     4.5 MiB     0          48.1 KiB    98        ok
+normal  47:     3.1 MiB    10.0 MiB    10.0 MiB     0          56.2 KiB   184        ok
+normal  48:     1.1 MiB     5.0 MiB     6.1 MiB    -1.1 MiB    64.2 KiB    80        ok
+normal  49:     3.0 MiB    61.7 MiB    61.7 MiB     0          80.3 KiB   791        ok
+normal  50:     3.7 MiB    11.0 MiB    10.8 MiB   192.7 KiB    96.3 KiB   118        not all freed
+normal  51:     6.2 MiB    20.1 MiB    20.1 MiB     0         112.4 KiB   184        ok
+normal  52:     2.3 MiB    10.0 MiB    10.0 MiB     0         128.5 KiB    80        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    19.7 Mi      2.1 Gi     13.8 Gi    -11.7 Gi    114   B      19.9 M    ok
+     large:   680.0 Mi      2.9 Gi      2.9 Gi    -18.3 Mi    980.2 KiB     3.1 K    ok
+      huge:     0           0           0           0                                ok
+     total:   699.7 MiB     5.0 GiB    16.7 GiB   -11.7 GiB                          ok
+malloc req:    84.4 MiB     4.6 GiB    14.4 GiB    -9.7 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    17.4 GiB    10.3 GiB     7.1 GiB                          
+     reset:    16.2 MiB
+    purged:     3.3 GiB
+   touched:   266.5 MiB     3.9 GiB     3.8 GiB   105.6 MiB                          not all freed
+  segments:    26          55          50           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     1.0 Ki     17.0 Ki     16.4 Ki    665                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   209.9 Ki 
+ -noretire:     3.2 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    65.7 Ki 
+    resets:     1      
+    purges:     1.6 Ki 
+   threads:   230         249          20         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:   109.660 s
+   process: user: 98.014 s, system: 23.686 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+Rebuild count: 1
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.5 MiB    16.9 MiB    46.4 MiB   -29.5 MiB     8   B       2.2 M    ok
+normal   4:   178.9 KiB   183.7 MiB   327.0 MiB  -143.2 MiB    32   B       6.0 M    ok
+normal   6:   380.2 KiB   115.7 MiB   438.7 MiB  -323.0 MiB    48   B       2.5 M    ok
+normal   8:     1.2 MiB   102.8 MiB   188.5 MiB   -85.6 MiB    64   B       1.6 M    ok
+normal   9:     2.4 MiB   186.6 MiB   386.2 MiB  -199.5 MiB    80   B       2.4 M    ok
+normal  10:    18.3 MiB    70.6 MiB   199.8 MiB  -129.1 MiB    96   B     772.1 K    ok
+normal  11:     5.7 KiB     2.2 MiB   220.3 MiB  -218.0 MiB   112   B      21.2 K    ok
+normal  12:     2.8 KiB     1.2 MiB   184.7 MiB  -183.4 MiB   128   B      10.5 K    ok
+normal  13:     3.4 MiB   197.7 MiB   467.0 MiB  -269.2 MiB   160   B       1.2 M    ok
+normal  14:    64.9 KiB   121.5 MiB   306.8 MiB  -185.2 MiB   192   B     664.0 K    ok
+normal  15:    23.0 KiB    49.5 MiB    92.3 MiB   -42.8 MiB   224   B     231.8 K    ok
+normal  16:    57.9 KiB    52.7 MiB   101.6 MiB   -48.8 MiB   256   B     216.2 K    ok
+normal  17:     1.9 MiB   221.4 MiB   655.9 MiB  -434.5 MiB   320   B     725.5 K    ok
+normal  18:     3.9 MiB   245.7 MiB   530.7 MiB  -285.0 MiB   384   B     671.1 K    ok
+normal  19:   352.7 MiB   370.7 MiB    18.0 MiB   352.6 MiB   448   B     867.8 K    not all freed
+normal  20:    27.6 KiB   103.2 MiB   411.0 MiB  -307.8 MiB   512   B     211.4 K    ok
+normal  21:    18.8 KiB   133.2 MiB   787.2 MiB  -654.0 MiB   640   B     218.3 K    ok
+normal  22:     2.4 MiB     4.2 MiB     3.4 MiB   778.5 KiB   768   B       5.7 K    not all freed
+normal  23:    72.9 KiB    20.1 MiB    25.1 MiB    -4.9 MiB   896   B      23.6 K    ok
+normal  24:    42.1 KiB     1.1 MiB     3.2 MiB    -2.1 MiB     1.0 KiB     1.1 K    ok
+normal  25:    31.3 KiB     1.0 MiB     1.2 GiB    -1.2 GiB     1.2 KiB   865        ok
+normal  26:   176.1 KiB   374.9 KiB   649.0 KiB  -274.0 KiB     1.5 KiB   249        ok
+normal  27:   270.5 KiB     4.5 MiB     4.5 MiB   -15.8 KiB     1.7 KiB     2.6 K    ok
+normal  28:    44.1 KiB   479.8 KiB   475.8 KiB     4.0 KiB     2.0 KiB   239        not all freed
+normal  29:   100.3 KiB     1.9 MiB    21.2 MiB   -19.3 MiB     2.5 KiB   787        ok
+normal  30:    21.0 KiB   394.5 KiB    52.5 MiB   -52.1 MiB     3.0 KiB   131        ok
+normal  31:   193.2 KiB   688.6 KiB   688.6 KiB     0           3.5 KiB   196        ok
+normal  32:   180.7 KiB   457.7 KiB   357.3 KiB   100.3 KiB     4.0 KiB   114        not all freed
+normal  33:   120.4 KiB     3.6 MiB   210.9 MiB  -207.2 MiB     5.0 KiB   746        ok
+normal  34:    30.1 KiB   656.5 KiB    13.6 MiB   -13.0 MiB     6.0 KiB   109        ok
+normal  35:   597.3 KiB     1.5 MiB     1.4 MiB    84.3 KiB     7.0 KiB   228        not all freed
+normal  36:   160.6 KiB   682.6 KiB   682.6 KiB     0           8.0 KiB    85        ok
+normal  37:     1.8 MiB    11.4 MiB     7.8 GiB    -7.8 GiB    10.0 KiB     1.1 K    ok
+normal  38:   409.6 KiB     1.7 MiB    16.6 MiB   -14.9 MiB    12.0 KiB   146        ok
+normal  39:   801.1 KiB     2.6 MiB     2.6 MiB     0          14.0 KiB   194        ok
+normal  40:    16.0 KiB     1.3 MiB     2.3 MiB  -963.7 KiB    16.0 KiB    89        ok
+normal  41:   823.2 KiB    13.7 MiB    23.3 MiB    -9.5 MiB    20.0 KiB   704        ok
+normal  42:   168.6 KiB     2.4 MiB     2.9 MiB  -481.8 KiB    24.0 KiB   104        ok
+normal  43:     1.6 MiB     5.2 MiB     5.2 MiB     0          28.1 KiB   193        ok
+normal  44:   674.6 KiB     2.6 MiB     3.2 MiB  -610.3 KiB    32.1 KiB    85        ok
+normal  45:     1.6 MiB    27.5 MiB    36.3 MiB    -8.8 MiB    40.1 KiB   704        ok
+normal  46:     1.2 MiB     4.8 MiB     4.8 MiB     0          48.1 KiB   103        ok
+normal  47:     3.2 MiB    10.5 MiB    10.5 MiB     0          56.2 KiB   193        ok
+normal  48:     1.2 MiB     5.2 MiB     6.5 MiB    -1.2 MiB    64.2 KiB    84        ok
+normal  49:     3.2 MiB    64.8 MiB    64.8 MiB     0          80.3 KiB   830        ok
+normal  50:     3.9 MiB    11.6 MiB    11.4 MiB   192.7 KiB    96.3 KiB   124        not all freed
+normal  51:     6.5 MiB    21.1 MiB    21.1 MiB     0         112.4 KiB   193        ok
+normal  52:     2.5 MiB    10.5 MiB    10.5 MiB     0         128.5 KiB    84        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    20.6 Mi      2.2 Gi     14.5 Gi    -12.3 Gi    114   B      20.9 M    ok
+     large:   712.3 Mi      3.0 Gi      3.0 Gi    -22.9 Mi    980.4 KiB     3.3 K    ok
+      huge:     0           0           0           0                                ok
+     total:   733.0 MiB     5.2 GiB    17.6 GiB   -12.3 GiB                          ok
+malloc req:    88.5 MiB     4.8 GiB    15.1 GiB   -10.2 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    17.9 GiB    10.8 GiB     7.0 GiB                          
+     reset:    16.2 MiB
+    purged:     3.4 GiB
+   touched:   275.0 MiB     4.1 GiB     4.0 GiB   105.6 MiB                          not all freed
+  segments:    27          58          53           5                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     1.0 Ki     17.9 Ki     17.2 Ki    666                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   220.2 Ki 
+ -noretire:     3.3 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    68.6 Ki 
+    resets:     1      
+    purges:     1.7 Ki 
+   threads:   230         250          21         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:   115.596 s
+   process: user: 102.871 s, system: 24.920 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB
+heap stats:     peak       total       freed     current        unit       count   
+normal   1:     1.5 MiB    16.9 MiB    47.4 MiB   -30.5 MiB     8   B       2.2 M    ok
+normal   4:   178.9 KiB   183.7 MiB   331.4 MiB  -147.6 MiB    32   B       6.0 M    ok
+normal   6:   380.2 KiB   115.7 MiB   455.6 MiB  -339.9 MiB    48   B       2.5 M    ok
+normal   8:     1.2 MiB   102.8 MiB   192.8 MiB   -89.9 MiB    64   B       1.6 M    ok
+normal   9:     2.4 MiB   186.6 MiB   397.0 MiB  -210.4 MiB    80   B       2.4 M    ok
+normal  10:    18.3 MiB    70.6 MiB   207.3 MiB  -136.6 MiB    96   B     772.1 K    ok
+normal  11:     5.7 KiB     2.2 MiB   224.5 MiB  -222.2 MiB   112   B      21.2 K    ok
+normal  12:     2.8 KiB     1.2 MiB   186.2 MiB  -184.9 MiB   128   B      10.5 K    ok
+normal  13:     3.4 MiB   197.7 MiB   484.1 MiB  -286.3 MiB   160   B       1.2 M    ok
+normal  14:    64.9 KiB   121.5 MiB   314.0 MiB  -192.4 MiB   192   B     664.0 K    ok
+normal  15:    23.0 KiB    49.5 MiB    94.5 MiB   -44.9 MiB   224   B     231.8 K    ok
+normal  16:    57.9 KiB    52.7 MiB   104.1 MiB   -51.3 MiB   256   B     216.2 K    ok
+normal  17:     1.9 MiB   221.4 MiB   671.5 MiB  -450.1 MiB   320   B     725.5 K    ok
+normal  18:     3.9 MiB   245.7 MiB   545.7 MiB  -299.9 MiB   384   B     671.1 K    ok
+normal  19:   352.7 MiB   370.7 MiB    18.0 MiB   352.6 MiB   448   B     867.8 K    not all freed
+normal  20:    27.6 KiB   103.2 MiB   411.0 MiB  -307.8 MiB   512   B     211.4 K    ok
+normal  21:    18.8 KiB   133.2 MiB   799.4 MiB  -666.1 MiB   640   B     218.3 K    ok
+normal  22:     2.4 MiB     4.2 MiB     4.2 MiB   -61.7 KiB   768   B       5.7 K    ok
+normal  23:    72.9 KiB    20.1 MiB    25.1 MiB    -4.9 MiB   896   B      23.6 K    ok
+normal  24:    42.1 KiB     1.1 MiB     3.3 MiB    -2.2 MiB     1.0 KiB     1.1 K    ok
+normal  25:    31.3 KiB     1.0 MiB     1.2 GiB    -1.2 GiB     1.2 KiB   865        ok
+normal  26:   176.1 KiB   374.9 KiB   841.7 KiB  -466.8 KiB     1.5 KiB   249        ok
+normal  27:   270.5 KiB     4.5 MiB     4.5 MiB   -29.8 KiB     1.7 KiB     2.6 K    ok
+normal  28:    44.1 KiB   479.8 KiB   479.8 KiB     0           2.0 KiB   239        ok
+normal  29:   100.3 KiB     1.9 MiB    21.4 MiB   -19.5 MiB     2.5 KiB   787        ok
+normal  30:    21.0 KiB   394.5 KiB    55.1 MiB   -54.7 MiB     3.0 KiB   131        ok
+normal  31:   193.2 KiB   688.6 KiB   688.6 KiB     0           3.5 KiB   196        ok
+normal  32:   180.7 KiB   457.7 KiB   365.4 KiB    92.3 KiB     4.0 KiB   114        not all freed
+normal  33:   120.4 KiB     3.6 MiB   220.1 MiB  -216.5 MiB     5.0 KiB   746        ok
+normal  34:    30.1 KiB   656.5 KiB    14.2 MiB   -13.6 MiB     6.0 KiB   109        ok
+normal  35:   597.3 KiB     1.5 MiB     1.4 MiB    84.3 KiB     7.0 KiB   228        not all freed
+normal  36:   160.6 KiB   682.6 KiB   682.6 KiB     0           8.0 KiB    85        ok
+normal  37:     1.8 MiB    11.4 MiB     8.0 GiB    -8.0 GiB    10.0 KiB     1.1 K    ok
+normal  38:   409.6 KiB     1.7 MiB    17.4 MiB   -15.7 MiB    12.0 KiB   146        ok
+normal  39:   801.1 KiB     2.6 MiB     2.6 MiB     0          14.0 KiB   194        ok
+normal  40:    16.0 KiB     1.3 MiB     2.3 MiB -1011.9 KiB    16.0 KiB    89        ok
+normal  41:   823.2 KiB    13.7 MiB    23.3 MiB    -9.5 MiB    20.0 KiB   704        ok
+normal  42:   168.6 KiB     2.4 MiB     2.9 MiB  -505.9 KiB    24.0 KiB   104        ok
+normal  43:     1.6 MiB     5.2 MiB     5.2 MiB     0          28.1 KiB   193        ok
+normal  44:   674.6 KiB     2.6 MiB     3.3 MiB  -674.6 KiB    32.1 KiB    85        ok
+normal  45:     1.6 MiB    27.5 MiB    36.3 MiB    -8.8 MiB    40.1 KiB   704        ok
+normal  46:     1.2 MiB     4.8 MiB     4.8 MiB     0          48.1 KiB   103        ok
+normal  47:     3.2 MiB    10.5 MiB    10.5 MiB     0          56.2 KiB   193        ok
+normal  48:     1.2 MiB     5.2 MiB     6.5 MiB    -1.3 MiB    64.2 KiB    84        ok
+normal  49:     3.2 MiB    64.8 MiB    64.8 MiB     0          80.3 KiB   830        ok
+normal  50:     3.9 MiB    11.6 MiB    11.6 MiB     0          96.3 KiB   124        ok
+normal  51:     6.5 MiB    21.1 MiB    21.1 MiB     0         112.4 KiB   193        ok
+normal  52:     2.5 MiB    10.5 MiB    10.5 MiB     0         128.5 KiB    84        ok
+
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    20.6 Mi      2.2 Gi     14.8 Gi    -12.6 Gi    114   B      20.9 M    ok
+     large:   712.3 Mi      3.0 Gi      3.1 Gi    -95.1 Mi    980.4 KiB     3.3 K    ok
+      huge:     0           0           0           0                                ok
+     total:   733.0 MiB     5.2 GiB    18.0 GiB   -12.7 GiB                          ok
+malloc req:    88.5 MiB     4.8 GiB    15.5 GiB   -10.6 GiB                          ok
+
+  reserved:     8.0 GiB     8.0 GiB     0           8.0 GiB                          
+ committed:     7.1 GiB    17.9 GiB    11.0 GiB     6.9 GiB                          
+     reset:    16.2 MiB
+    purged:     3.6 GiB
+   touched:   275.0 MiB     4.1 GiB     4.1 GiB     5.9 MiB                          not all freed
+  segments:    27          58          55           3                                not all freed
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     1.0 Ki     17.9 Ki     17.8 Ki     81                                not all freed
+-abandoned:     0           0           0           0                                ok
+ -extended:   220.2 Ki 
+ -noretire:     3.3 Mi 
+    arenas:     8      
+-crossover:     0      
+ -rollback:     0      
+     mmaps:   238      
+   commits:    68.6 Ki 
+    resets:     1      
+    purges:     1.8 Ki 
+   threads:   230         250          21         229                                not all freed
+  searches:     1.2 avg
+numa nodes:     1
+   elapsed:   120.763 s
+   process: user: 103.031 s, system: 24.924 s, faults: 0, rss: 820.7 MiB, commit: 7.1 GiB

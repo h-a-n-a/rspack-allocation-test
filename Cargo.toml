@@ -4,24 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# libmimalloc-sys = { path = "/Users/bytedance/Projects/mimalloc_rust/libmimalloc-sys/", package = "libmimalloc-sys-rspack", features = [
-#   "extended",
-# ] }
-#
-# mimalloc = { path = "/Users/bytedance/Projects/mimalloc_rust", package = "mimalloc-rspack", features = [
-#   # "secure",
-# ] }
-# rspack = { path = "/Users/bytedance/Projects/rspack/crates/rspack" }
-# rspack_core = { path = "/Users/bytedance/Projects/rspack/crates/rspack_core/" }
-# rspack_regex = { path = "/Users/bytedance/Projects/rspack/crates/rspack_regex/" }
-# rspack_macros = { path = "/Users/bytedance/Projects/rspack/crates/rspack_macros" }
-# rspack_error = { path = "/Users/bytedance/Projects/rspack/crates/rspack_error" }
-# rspack_loader_swc = { path = "/Users/bytedance/Projects/rspack/crates/rspack_loader_swc/" }
-# rspack_hook = { path = "/Users/bytedance/Projects/rspack/crates/rspack_hook/" }
-#
-
-
-mimalloc = { path = "./mimalloc_rust" }
+mimalloc = { path = "./mimalloc_rust" } # Add features = ["debug"] to enable debug mode
 libmimalloc-sys = { path = "./mimalloc_rust/libmimalloc-sys/", features = [
   "extended",
 ] }

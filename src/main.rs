@@ -97,6 +97,7 @@ fn rspack() {
                 .await
                 .unwrap();
 
+            println!("Rebuild count: {}", i);
             unsafe {
                 mi_stats_print(0 as _);
             }
