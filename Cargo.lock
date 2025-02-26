@@ -1630,8 +1630,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "libmimalloc-sys-rspack"
-version = "0.1.40"
+name = "libmimalloc-sys"
+version = "0.1.39"
 dependencies = [
  "cc",
  "cty",
@@ -1806,18 +1806,18 @@ dependencies = [
 ]
 
 [[package]]
-name = "mimalloc-rspack"
-version = "0.1.44"
+name = "mimalloc"
+version = "0.1.43"
 dependencies = [
- "libmimalloc-sys-rspack",
+ "libmimalloc-sys",
 ]
 
 [[package]]
 name = "mimalloc-test"
 version = "0.1.0"
 dependencies = [
- "libmimalloc-sys-rspack",
- "mimalloc-rspack",
+ "libmimalloc-sys",
+ "mimalloc",
  "rspack",
  "rspack_core",
  "rspack_regex",

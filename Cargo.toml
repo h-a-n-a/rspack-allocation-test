@@ -21,8 +21,8 @@ edition = "2021"
 #
 
 
-mimalloc = { path = "./mimalloc_rust", package = "mimalloc-rspack" }
-libmimalloc-sys = { version = "0.1.40", path = "./mimalloc_rust/libmimalloc-sys", package = "libmimalloc-sys-rspack", features = [
+mimalloc = { path = "./mimalloc_rust" }
+libmimalloc-sys = { path = "./mimalloc_rust/libmimalloc-sys/", features = [
   "extended",
 ] }
 rspack = { path = "../rspack/crates/rspack", features = ["full"] }
