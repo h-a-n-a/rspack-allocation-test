@@ -1,6 +1,6 @@
 # Rspack Mimalloc Memory Test
 
-This is a repo for reproducing the memory consumption issue especially on the macOS.
+This is a repo for reproducing the memory consumption issue on the macOS.
 
 ## Prepare
 
