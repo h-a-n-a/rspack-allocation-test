@@ -17,7 +17,6 @@ use serde_json::json;
 #[global_allocator]
 static GLOBAL: MiMalloc = MiMalloc;
 
-
 fn rspack() {
     let dir = PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("10000");
     let options = json!({
@@ -80,7 +79,7 @@ fn rspack() {
         eprintln!("{:#?}", e);
     });
 
-    let mut i = 10;
+    let mut i = 20;
 
     loop {
         rt.block_on(async {
