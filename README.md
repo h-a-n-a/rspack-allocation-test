@@ -4,7 +4,7 @@ This is a repo for reproducing the memory consumption issue on the macOS.
 
 ## Prepare
 
-To prepare for the demo, pleaser install rust-toolchains on macOS and switch to the nightly version.
+To prepare for the demo, please install rust-toolchains on macOS and switch to the nightly version.
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  
@@ -41,7 +41,7 @@ CARGO_MANIFEST_DIR=$(pwd) ./target/release/mimalloc-test
 
 This executes the code in `src/main.rs`.
 
-In this demo, an rspack compiler was created to compile JavaScript in `10000` directly. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn a few green threads to drive asynchronous tasks. Then, Rpsack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
+In this demo, an rspack compiler was created to compile JavaScript in `10000` directly. For each `build` and `rebuild`, Rspack would trigger [tokio-rs](https://github.com/tokio-rs/tokio) to spawn a few green threads to drive asynchronous tasks. Then, Rspack would trigger a series of JavaScript module transformations, then optimizations. Finally, assets generated in each `build` or `rebuild` will be emitted to the dist file.
 
 **Actual behavior**:
 
