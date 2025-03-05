@@ -28,6 +28,13 @@ Checkout git submodules recursively in the repo. This is for building mimalloc o
 git submodule update --init --recursive
 ```
 
+Install node modules.
+
+```bash
+cd ./10000
+pnpm install
+```
+
 ## Compile and run
 
 ```bash
