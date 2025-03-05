@@ -79,7 +79,7 @@ fn rspack() {
         eprintln!("{:#?}", e);
     });
 
-    let mut i = 20;
+    let mut i = 100;
 
     loop {
         rt.block_on(async {
@@ -102,7 +102,7 @@ fn rspack() {
                 mi_stats_print(0 as _);
             }
 
-            sleep(Duration::from_secs(5));
+            sleep(Duration::from_millis(500));
         });
 
         i -= 1;
